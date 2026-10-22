@@ -7,3 +7,5 @@ Each project needs its own business question, data source and licence notes, a r
 Label synthetic data and simulated business effects clearly. Do not publish confidential employer or assessment data, credentials, personal career notes or application materials. Distinguish actual integrations from proposed configurations and offline demonstrations from live model runs.
 
 Preserve existing projects. Add new work under its numbered projects folder and update the root index after a successful release. Respect source data licences separately from the code licence. Read a project's own AGENTS.md before editing it.
+
+Keep dashboard presentation understated and personal. Prefer descriptive headings, natural first-person project notes and modest branding over product marketing slogans. Preserve readable layouts, accessible controls and accurate analysis. Plan for later website integration: use static browser interfaces when appropriate, and document hosting needs for apps that require a server.

@@ -45,6 +45,10 @@ python -m http.server 8000 --directory dist
 
 Node is only needed for the JavaScript calculation checks, not for opening the app. The optional Google Fonts request changes typography; the interface falls back to system fonts when offline.
 
+## Using the dashboard on a website
+
+The dashboard is static HTML, CSS and JavaScript. Its filters and exports run in the browser, so the contents of `dist/` can be hosted directly on GitHub Pages. Python is used to prepare the data, rather than run a server for visitors. The HTML notebook view can be linked beside the interactive dashboard and source code. Website integration is a later step.
+
 ## How the files fit together
 
 | File or folder | Purpose |

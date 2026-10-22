@@ -21,3 +21,7 @@ Two issues found during verification were corrected. The notebook generator need
 The app has no authentication, database connection, API key entry or external AI call. It displays synthetic exported data and performs filtering and aggregation in the browser. Hosted preview access is controlled by the hosting service.
 
 The personal portfolio website has not been edited. Daily GitHub publication is handled by the separate release workflow after the checked source is saved.
+
+## Presentation refinement
+
+Simplified the dashboard heading, navigation labels and analyst note to sound more like my own project notes. Reduced a few font weights, letter spacing and card corners. This is a small visual adjustment; the data and calculations use the same checked outputs. The presentation preference also applies to future portfolio projects. Desktop visual review passed and the JavaScript syntax check passed. Updated the README screenshot to match.
