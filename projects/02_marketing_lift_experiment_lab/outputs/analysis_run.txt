@@ -1,0 +1,109 @@
+                                      check  passed
+                         Unique user output    True
+     Assignment re-deliveries are identical    True
+          Event re-deliveries are identical    True
+   Every assignment has seven complete days    True
+         SQL and pandas have the same users    True
+      SQL and pandas conversion flags agree    True
+       SQL and pandas purchase counts agree    True
+Development and evaluation IDs are disjoint    True
+            Conversions cannot exceed users    True
+               No unknown experiment labels    True
+{
+  "selected_groups": {
+    "retargeting": "Returning",
+    "small_test": "Returning",
+    "missing_controls": "Returning"
+  },
+  "quality": [
+    {
+      "experiment_id": "missing_controls",
+      "assigned_users": 13127,
+      "srm_p": 0.0,
+      "missing_assignment_event_users": 349,
+      "blocked": true
+    },
+    {
+      "experiment_id": "retargeting",
+      "assigned_users": 100000,
+      "srm_p": 0.3492555858969515,
+      "missing_assignment_event_users": 0,
+      "blocked": false
+    },
+    {
+      "experiment_id": "small_test",
+      "assigned_users": 5000,
+      "srm_p": 0.26998956870141794,
+      "missing_assignment_event_users": 0,
+      "blocked": false
+    }
+  ],
+  "checks_passed": true,
+  "raw_assignment_rows": 118202,
+  "users": 118127,
+  "event_deliveries": 9570,
+  "duplicate_assignments": 75,
+  "duplicate_events": 105,
+  "evaluation_results": [
+    {
+      "experiment": "retargeting",
+      "split": "Evaluation",
+      "customer_type": "All",
+      "device": "All",
+      "n_t": 30003,
+      "n_c": 30282,
+      "y_t": 2407,
+      "y_c": 2031,
+      "effect": 0.01315576453714512,
+      "lower": 0.008987567001902154,
+      "upper": 0.017328979981344854,
+      "srm_p": 0.2558238455960531,
+      "net": {
+        "point": 584.018808343061,
+        "lower": 208.88103017119386,
+        "upper": 959.6081983210368
+      },
+      "decision": "Worth a follow-up rollout"
+    },
+    {
+      "experiment": "small_test",
+      "split": "Evaluation",
+      "customer_type": "All",
+      "device": "All",
+      "n_t": 1450,
+      "n_c": 1541,
+      "y_t": 83,
+      "y_c": 105,
+      "effect": -0.01089619369419767,
+      "lower": -0.028347126044137857,
+      "upper": 0.006611235496106104,
+      "srm_p": 0.09612784800017848,
+      "net": {
+        "point": -1580.6574324777903,
+        "lower": -3151.241343972407,
+        "upper": -4.9888053504506615
+      },
+      "decision": "Does not cover assumed cost"
+    },
+    {
+      "experiment": "missing_controls",
+      "split": "Evaluation",
+      "customer_type": "All",
+      "device": "All",
+      "n_t": 5416,
+      "n_c": 2397,
+      "y_t": 439,
+      "y_c": 167,
+      "effect": 0.01138570862519557,
+      "lower": -0.0015512642589959186,
+      "upper": 0.023546732760911217,
+      "srm_p": 1.1273494087336156e-255,
+      "net": {
+        "point": 424.71377626760136,
+        "lower": -739.6137833096327,
+        "upper": 1519.2059484820093
+      },
+      "decision": "Investigate data"
+    }
+  ]
+}

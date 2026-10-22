@@ -1,0 +1,9 @@
+{
+  "seed": 89,
+  "source_hashes": {
+    "data/assignments.csv.gz": "2c38ae0c699ca7e0de0000dc883d0d3e3ec6d20d11ada18f87fd22f10cfc44c0",
+    "data/conversion_events.csv": "5f1c4a88b65139b6024374ce129c4804d595efc8618213049f1dfd411533d450",
+    "data/scenario.json": "701152742b0734bc17df00db83ade32fa871bad363bc1667715ce94f6ec64f9b"
+  },
+  "regeneration_byte_identical": true
+}

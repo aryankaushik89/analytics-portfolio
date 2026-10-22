@@ -1,0 +1,27 @@
+{
+  "route": "Supported Sites preview and cloud browser",
+  "verified_at": "2026-10-22T10:30:16.114084+00:00",
+  "five_views": true,
+  "experiment_split_customer_device_filters": true,
+  "development_only_gate": true,
+  "quality_gate_survives_filters": true,
+  "inconclusive_cost_case": true,
+  "invalid_cost_input": true,
+  "user_detail_two_in_window_one_late": true,
+  "empty_search_disables_export": true,
+  "example_download_matches_search": true,
+  "summary_download_matches_filters_and_python": true,
+  "blocked_download_withholds_effect_and_money": true,
+  "sample_size_default_10890": true,
+  "sample_size_invalid_input": true,
+  "html_analysis_readable": true,
+  "desktop_visual_review": "passed",
+  "responsive_iframe_390px": {
+    "visual_review": "passed",
+    "client_width": 375,
+    "scroll_width": 375,
+    "filter_changed_successfully": true
+  },
+  "mobile_device_hardware_test": false,
+  "screenshot": "docs/dashboard_overview.jpg"
+}

@@ -1,0 +1,27 @@
+test_balanced_srm_is_one (test_analysis.ExperimentChecks.test_balanced_srm_is_one) ... ok
+test_broken_extract_is_blocked (test_analysis.ExperimentChecks.test_broken_extract_is_blocked) ... ok
+test_control_baseline_uses_all_control_assignments (test_analysis.ExperimentChecks.test_control_baseline_uses_all_control_assignments) ... ok
+test_cost_changes_money_without_changing_conversion_effect (test_analysis.ExperimentChecks.test_cost_changes_money_without_changing_conversion_effect) ... ok
+test_development_does_not_get_a_rollout_recommendation (test_analysis.ExperimentChecks.test_development_does_not_get_a_rollout_recommendation) ... ok
+test_duplicate_assignments_do_not_add_users (test_analysis.ExperimentChecks.test_duplicate_assignments_do_not_add_users) ... ok
+test_duplicate_events_do_not_inflate_conversions (test_analysis.ExperimentChecks.test_duplicate_events_do_not_inflate_conversions) ... ok
+test_evaluation_split_is_disjoint (test_analysis.ExperimentChecks.test_evaluation_split_is_disjoint) ... ok
+test_filter_cannot_clear_full_experiment_failure (test_analysis.ExperimentChecks.test_filter_cannot_clear_full_experiment_failure) ... ok
+test_group_choice_cannot_read_evaluation_outcomes (test_analysis.ExperimentChecks.test_group_choice_cannot_read_evaluation_outcomes) ... ok
+test_interval_reverses_with_the_arms (test_analysis.ExperimentChecks.test_interval_reverses_with_the_arms) ... ok
+test_itt_keeps_unexposed_treatment_users (test_analysis.ExperimentChecks.test_itt_keeps_unexposed_treatment_users) ... ok
+test_large_sample_interval_agrees_with_normal_approximation (test_analysis.ExperimentChecks.test_large_sample_interval_agrees_with_normal_approximation) ... ok
+test_main_synthetic_evaluation_result (test_analysis.ExperimentChecks.test_main_synthetic_evaluation_result) ... ok
+test_no_users_and_missing_arm_are_explicit (test_analysis.ExperimentChecks.test_no_users_and_missing_arm_are_explicit) ... ok
+test_small_test_has_an_inconclusive_case (test_analysis.ExperimentChecks.test_small_test_has_an_inconclusive_case) ... ok
+test_smaller_effect_needs_more_users (test_analysis.ExperimentChecks.test_smaller_effect_needs_more_users) ... ok
+test_sql_and_pandas_agree (test_analysis.ExperimentChecks.test_sql_and_pandas_agree) ... ok
+test_wilson_known_zero_success_case (test_analysis.ExperimentChecks.test_wilson_known_zero_success_case) ... ok
+test_window_boundaries_and_users_with_no_events (test_analysis.ExperimentChecks.test_window_boundaries_and_users_with_no_events) ... ok
+test_zero_contribution_has_no_positive_value (test_analysis.ExperimentChecks.test_zero_contribution_has_no_positive_value) ... ok
+test_zero_conversion_interval_has_width (test_analysis.ExperimentChecks.test_zero_conversion_interval_has_width) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.559s
+
+OK

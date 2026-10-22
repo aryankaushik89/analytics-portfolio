@@ -1,0 +1,11 @@
+check,passed
+Unique user output,True
+Assignment re-deliveries are identical,True
+Event re-deliveries are identical,True
+Every assignment has seven complete days,True
+SQL and pandas have the same users,True
+SQL and pandas conversion flags agree,True
+SQL and pandas purchase counts agree,True
+Development and evaluation IDs are disjoint,True
+Conversions cannot exceed users,True
+No unknown experiment labels,True

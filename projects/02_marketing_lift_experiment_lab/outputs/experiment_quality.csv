@@ -1,0 +1,4 @@
+experiment_id,assigned_users,srm_p,missing_assignment_event_users,blocked
+missing_controls,13127,0.0,349,True
+retargeting,100000,0.3492555858969515,0,False
+small_test,5000,0.26998956870141794,0,False

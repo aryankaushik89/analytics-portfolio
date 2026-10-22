@@ -1,0 +1,9 @@
+{
+  "rule": "Choose the larger development lower confidence bound from New and Returning.",
+  "selected_groups": {
+    "retargeting": "Returning",
+    "small_test": "Returning",
+    "missing_controls": "Returning"
+  },
+  "evaluation_outcomes_used": false
+}

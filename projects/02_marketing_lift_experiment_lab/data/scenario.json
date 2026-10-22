@@ -1,0 +1,40 @@
+{
+  "seed": 89,
+  "synthetic": true,
+  "extract_at": "2026-03-01T00:00:00Z",
+  "window_days": 7,
+  "planned_treatment_share": 0.5,
+  "srm_alpha": 0.001,
+  "default_cost": 0.6,
+  "default_contribution": 90,
+  "currency": "CAD",
+  "experiments": [
+    {
+      "experiment_id": "retargeting",
+      "name": "Retargeting campaign",
+      "users": 100000,
+      "new_effect": 0.008,
+      "returning_effect": 0.032,
+      "drop_controls": 0.0,
+      "note": "Main synthetic experiment. Effects vary by customer type."
+    },
+    {
+      "experiment_id": "small_test",
+      "name": "Small campaign test",
+      "users": 5000,
+      "new_effect": 0.002,
+      "returning_effect": 0.002,
+      "drop_controls": 0.0,
+      "note": "A smaller, weak-effect scenario. An uncertain result is useful too."
+    },
+    {
+      "experiment_id": "missing_controls",
+      "name": "Missing control records",
+      "users": 18000,
+      "new_effect": 0.008,
+      "returning_effect": 0.032,
+      "drop_controls": 0.55,
+      "note": "Deliberately broken extract. Some assigned control users are missing."
+    }
+  ]
+}

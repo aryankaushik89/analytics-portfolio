@@ -1,0 +1,1082 @@
+[
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 30003,
+  "n_c": 30282,
+  "y_t": 2407,
+  "y_c": 2031,
+  "effect": 0.01315576453714512,
+  "lower": 0.008987567001902154,
+  "upper": 0.017328979981344854,
+  "srm_p": 0.2558238455960531,
+  "net": {
+   "point": 584.018808343061,
+   "lower": 208.88103017119386,
+   "upper": 959.6081983210368
+  },
+  "decision": "Worth a follow-up rollout"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 10577,
+  "n_c": 10536,
+  "y_t": 840,
+  "y_c": 711,
+  "effect": 0.0119346885180657,
+  "lower": 0.004898208032273865,
+  "upper": 0.01898016561470871,
+  "srm_p": 0.777814134634575,
+  "net": {
+   "point": 474.12196662591305,
+   "lower": -159.16127709535215,
+   "upper": 1108.214905323784
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 19426,
+  "n_c": 19746,
+  "y_t": 1567,
+  "y_c": 1320,
+  "effect": 0.013816105954037983,
+  "lower": 0.008641642588514777,
+  "upper": 0.018999827405007105,
+  "srm_p": 0.10591679316376738,
+  "net": {
+   "point": 643.4495358634185,
+   "lower": 177.74783296632984,
+   "upper": 1109.9844664506395
+  },
+  "decision": "Worth a follow-up rollout"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 17970,
+  "n_c": 18073,
+  "y_t": 797,
+  "y_c": 713,
+  "effect": 0.004900582350420131,
+  "lower": 0.0007630753700205899,
+  "upper": 0.009045506079941618,
+  "srm_p": 0.5874508649724244,
+  "net": {
+   "point": -158.9475884621882,
+   "lower": -531.3232166981469,
+   "upper": 214.09554719474556
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 6355,
+  "n_c": 6251,
+  "y_t": 279,
+  "y_c": 235,
+  "effect": 0.006308454061984228,
+  "lower": -0.0006049055826417571,
+  "upper": 0.013235814477005132,
+  "srm_p": 0.354297826351902,
+  "net": {
+   "point": -32.23913442141952,
+   "lower": -654.4415024377581,
+   "upper": 591.2233029304621
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 11615,
+  "n_c": 11822,
+  "y_t": 518,
+  "y_c": 478,
+  "effect": 0.004164412381011402,
+  "lower": -0.0010037673437199336,
+  "upper": 0.009346173115901812,
+  "srm_p": 0.1763328487533951,
+  "net": {
+   "point": -225.20288570897384,
+   "lower": -690.339060934794,
+   "upper": 241.155580431163
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 12033,
+  "n_c": 12209,
+  "y_t": 1610,
+  "y_c": 1318,
+  "effect": 0.02584557087007644,
+  "lower": 0.017643662032664632,
+  "upper": 0.03405529073180332,
+  "srm_p": 0.25831177522527154,
+  "net": {
+   "point": 1726.1013783068797,
+   "lower": 987.929582939817,
+   "upper": 2464.976165862299
+  },
+  "decision": "Worth a follow-up rollout"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 4222,
+  "n_c": 4285,
+  "y_t": 561,
+  "y_c": 476,
+  "effect": 0.02179023363202251,
+  "lower": 0.007884429063441549,
+  "upper": 0.035716018423432846,
+  "srm_p": 0.4945754100590486,
+  "net": {
+   "point": 1361.121026882026,
+   "lower": 109.59861570973942,
+   "upper": 2614.4416581089563
+  },
+  "decision": "Worth a follow-up rollout"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 7811,
+  "n_c": 7924,
+  "y_t": 1049,
+  "y_c": 842,
+  "effect": 0.028038320258044813,
+  "lower": 0.01788080868601851,
+  "upper": 0.038208546199484716,
+  "srm_p": 0.36767625556057204,
+  "net": {
+   "point": 1923.4488232240333,
+   "lower": 1009.2727817416658,
+   "upper": 2838.7691579536245
+  },
+  "decision": "Worth a follow-up rollout"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 19849,
+  "n_c": 19866,
+  "y_t": 1647,
+  "y_c": 1314,
+  "effect": 0.016833313199951072,
+  "lower": 0.011670684275043412,
+  "upper": 0.022003589249895063,
+  "srm_p": 0.9320193615360357,
+  "net": {
+   "point": 914.9981879955965,
+   "lower": 450.3615847539072,
+   "upper": 1380.3230324905555
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 6999,
+  "n_c": 7017,
+  "y_t": 568,
+  "y_c": 423,
+  "effect": 0.020872278767485326,
+  "lower": 0.01239512980721555,
+  "upper": 0.02937997860011701,
+  "srm_p": 0.8791546690886399,
+  "net": {
+   "point": 1278.5050890736793,
+   "lower": 515.5616826493995,
+   "upper": 2044.198074010531
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 12850,
+  "n_c": 12849,
+  "y_t": 1079,
+  "y_c": 891,
+  "effect": 0.014624953780714822,
+  "lower": 0.008122776007441879,
+  "upper": 0.021136593715768717,
+  "srm_p": 0.9950228683002135,
+  "net": {
+   "point": 716.245840264334,
+   "lower": 131.04984066976908,
+   "upper": 1302.2934344191847
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 11982,
+  "n_c": 11980,
+  "y_t": 562,
+  "y_c": 473,
+  "effect": 0.007421218081992219,
+  "lower": 0.0022734041351410742,
+  "upper": 0.012582580802526062,
+  "srm_p": 0.9896914770414033,
+  "net": {
+   "point": 67.90962737929976,
+   "lower": -395.39362783730337,
+   "upper": 532.4322722273457
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 4305,
+  "n_c": 4206,
+  "y_t": 198,
+  "y_c": 145,
+  "effect": 0.011518471206721441,
+  "lower": 0.003163679862416502,
+  "upper": 0.019918338380737092,
+  "srm_p": 0.283221036038824,
+  "net": {
+   "point": 436.6624086049296,
+   "lower": -315.26881238251485,
+   "upper": 1192.650454266338
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 7677,
+  "n_c": 7774,
+  "y_t": 364,
+  "y_c": 328,
+  "effect": 0.005222432775001513,
+  "lower": -0.0013061253295799866,
+  "upper": 0.011771049583212942,
+  "srm_p": 0.4351806569284964,
+  "net": {
+   "point": -129.9810502498638,
+   "lower": -717.5512796621988,
+   "upper": 459.39446248916465
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 7867,
+  "n_c": 7886,
+  "y_t": 1085,
+  "y_c": 841,
+  "effect": 0.0312731980486777,
+  "lower": 0.021052243814769347,
+  "upper": 0.041502296316663384,
+  "srm_p": 0.8796750130368933,
+  "net": {
+   "point": 2214.587824380993,
+   "lower": 1294.7019433292414,
+   "upper": 3135.206668499705
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 2694,
+  "n_c": 2811,
+  "y_t": 370,
+  "y_c": 278,
+  "effect": 0.038445052407064514,
+  "lower": 0.02141221584018395,
+  "upper": 0.05555618505856692,
+  "srm_p": 0.11481599056268496,
+  "net": {
+   "point": 2860.054716635806,
+   "lower": 1327.0994256165554,
+   "upper": 4400.056655271023
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "retargeting",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 5173,
+  "n_c": 5075,
+  "y_t": 715,
+  "y_c": 563,
+  "effect": 0.027281708073085054,
+  "lower": 0.014501204981894243,
+  "upper": 0.040059361007706906,
+  "srm_p": 0.33300968343190895,
+  "net": {
+   "point": 1855.3537265776545,
+   "lower": 705.1084483704817,
+   "upper": 3005.3424906936216
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 1450,
+  "n_c": 1541,
+  "y_t": 83,
+  "y_c": 105,
+  "effect": -0.01089619369419767,
+  "lower": -0.028347126044137857,
+  "upper": 0.006611235496106104,
+  "srm_p": 0.09612784800017848,
+  "net": {
+   "point": -1580.6574324777903,
+   "lower": -3151.241343972407,
+   "upper": -4.9888053504506615
+  },
+  "decision": "Does not cover assumed cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 508,
+  "n_c": 538,
+  "y_t": 25,
+  "y_c": 36,
+  "effect": -0.01770189971606708,
+  "lower": -0.046637901882788796,
+  "upper": 0.011174703947775057,
+  "srm_p": 0.3536210024256812,
+  "net": {
+   "point": -2193.1709744460372,
+   "lower": -4797.411169450992,
+   "upper": 405.7233552997551
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 942,
+  "n_c": 1003,
+  "y_t": 58,
+  "y_c": 69,
+  "effect": -0.007222493877179506,
+  "lower": -0.02930513764872922,
+  "upper": 0.015004438810460312,
+  "srm_p": 0.166618143864488,
+  "net": {
+   "point": -1250.0244489461556,
+   "lower": -3237.46238838563,
+   "upper": 750.399492941428
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 868,
+  "n_c": 929,
+  "y_t": 31,
+  "y_c": 40,
+  "effect": -0.007342764877748736,
+  "lower": -0.025654230768648003,
+  "upper": 0.011053651319106985,
+  "srm_p": 0.1501552143302683,
+  "net": {
+   "point": -1260.8488389973863,
+   "lower": -2908.8807691783204,
+   "upper": 394.8286187196287
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 311,
+  "n_c": 340,
+  "y_t": 10,
+  "y_c": 13,
+  "effect": -0.006080953281634202,
+  "lower": -0.03596292864038084,
+  "upper": 0.024332163578683737,
+  "srm_p": 0.2557057021720811,
+  "net": {
+   "point": -1147.2857953470782,
+   "lower": -3836.663577634275,
+   "upper": 1589.8947220815362
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 557,
+  "n_c": 589,
+  "y_t": 21,
+  "y_c": 27,
+  "effect": -0.008138432604938538,
+  "lower": -0.03197232862132456,
+  "upper": 0.015747391921955015,
+  "srm_p": 0.344519056596294,
+  "net": {
+   "point": -1332.4589344444685,
+   "lower": -3477.5095759192104,
+   "upper": 817.2652729759513
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 582,
+  "n_c": 612,
+  "y_t": 52,
+  "y_c": 65,
+  "effect": -0.016862071288996694,
+  "lower": -0.05073162206221603,
+  "upper": 0.017157186404812307,
+  "srm_p": 0.3852856094438982,
+  "net": {
+   "point": -2117.5864160097026,
+   "lower": -5165.845985599442,
+   "upper": 944.1467764331076
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 197,
+  "n_c": 198,
+  "y_t": 15,
+  "y_c": 23,
+  "effect": -0.04001948418192072,
+  "lower": -0.0998787977062687,
+  "upper": 0.0190747645749568,
+  "srm_p": 0.9598710036432564,
+  "net": {
+   "point": -4201.753576372865,
+   "lower": -9589.091793564183,
+   "upper": 1116.728811746112
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 385,
+  "n_c": 414,
+  "y_t": 37,
+  "y_c": 42,
+  "effect": -0.005345379258422739,
+  "lower": -0.046972805171065564,
+  "upper": 0.03680968525691758,
+  "srm_p": 0.3049169206338023,
+  "net": {
+   "point": -1081.0841332580464,
+   "lower": -4827.552465395901,
+   "upper": 2712.871673122582
+  },
+  "decision": "Inconclusive at this cost"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 1011,
+  "n_c": 998,
+  "y_t": 80,
+  "y_c": 66,
+  "effect": 0.012997310149477984,
+  "lower": -0.009840929673291244,
+  "upper": 0.03590811738611905,
+  "srm_p": 0.771787942107286,
+  "net": {
+   "point": 569.7579134530185,
+   "lower": -1485.6836705962119,
+   "upper": 2631.7305647507146
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 351,
+  "n_c": 366,
+  "y_t": 26,
+  "y_c": 21,
+  "effect": 0.0166970248937462,
+  "lower": -0.020129697147049548,
+  "upper": 0.05440571989858916,
+  "srm_p": 0.5753530764008792,
+  "net": {
+   "point": 902.732240437158,
+   "lower": -2411.672743234459,
+   "upper": 4296.514790873025
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 660,
+  "n_c": 632,
+  "y_t": 54,
+  "y_c": 45,
+  "effect": 0.010615650172612193,
+  "lower": -0.018748307944859592,
+  "upper": 0.03988259770645594,
+  "srm_p": 0.4359910027501389,
+  "net": {
+   "point": 355.4085155350973,
+   "lower": -2287.3477150373633,
+   "upper": 2989.433793581035
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 592,
+  "n_c": 598,
+  "y_t": 23,
+  "y_c": 30,
+  "effect": -0.01131587272891621,
+  "lower": -0.035536001127561306,
+  "upper": 0.012590274305916443,
+  "srm_p": 0.8619194452813224,
+  "net": {
+   "point": -1618.4285456024588,
+   "lower": -3798.2401014805173,
+   "upper": 533.1246875324798
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 205,
+  "n_c": 215,
+  "y_t": 8,
+  "y_c": 8,
+  "effect": 0.0018150879183210442,
+  "lower": -0.03761440729949397,
+  "upper": 0.04224037656091483,
+  "srm_p": 0.6255852315243251,
+  "net": {
+   "point": -436.642087351106,
+   "lower": -3985.296656954457,
+   "upper": 3201.6338904823347
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 387,
+  "n_c": 383,
+  "y_t": 15,
+  "y_c": 22,
+  "effect": -0.018681563341226955,
+  "lower": -0.050504410643473406,
+  "upper": 0.012212450210716517,
+  "srm_p": 0.8853820274047068,
+  "net": {
+   "point": -2281.340700710426,
+   "lower": -5145.396957912606,
+   "upper": 499.12051896448656
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 419,
+  "n_c": 400,
+  "y_t": 57,
+  "y_c": 36,
+  "effect": 0.046038186157517896,
+  "lower": 0.0024292911676567983,
+  "upper": 0.08958671140680913,
+  "srm_p": 0.50674552815267,
+  "net": {
+   "point": 3543.4367541766105,
+   "lower": -381.36379491088815,
+   "upper": 7462.804026612822
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 146,
+  "n_c": 151,
+  "y_t": 18,
+  "y_c": 13,
+  "effect": 0.03719495600108863,
+  "lower": -0.03364466696417638,
+  "upper": 0.1094628363979531,
+  "srm_p": 0.7717172243455236,
+  "net": {
+   "point": 2747.546040097977,
+   "lower": -3628.020026775874,
+   "upper": 9251.655275815778
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "small_test",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 273,
+  "n_c": 249,
+  "y_t": 39,
+  "y_c": 23,
+  "effect": 0.050487664945496266,
+  "lower": -0.005511149607365248,
+  "upper": 0.10581857504746192,
+  "srm_p": 0.2935105954424976,
+  "net": {
+   "point": 3943.8898450946635,
+   "lower": -1096.0034646628724,
+   "upper": 8923.671754271574
+  },
+  "decision": "Development only"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 5416,
+  "n_c": 2397,
+  "y_t": 439,
+  "y_c": 167,
+  "effect": 0.01138570862519557,
+  "lower": -0.0015512642589959186,
+  "upper": 0.023546732760911217,
+  "srm_p": 1.1273494087336156e-255,
+  "net": {
+   "point": 424.71377626760136,
+   "lower": -739.6137833096327,
+   "upper": 1519.2059484820093
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 1882,
+  "n_c": 836,
+  "y_t": 134,
+  "y_c": 46,
+  "effect": 0.01617692671442881,
+  "lower": -0.0044468823221674725,
+  "upper": 0.03459877466489997,
+  "srm_p": 1.538258769508054e-89,
+  "net": {
+   "point": 855.9234042985929,
+   "lower": -1000.2194089950725,
+   "upper": 2513.889719840997
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 3534,
+  "n_c": 1561,
+  "y_t": 305,
+  "y_c": 121,
+  "effect": 0.008790057017271952,
+  "lower": -0.008031308993676396,
+  "upper": 0.024425645759381175,
+  "srm_p": 3.5725315547273646e-168,
+  "net": {
+   "point": 191.10513155447575,
+   "lower": -1322.8178094308755,
+   "upper": 1598.308118344306
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 3229,
+  "n_c": 1414,
+  "y_t": 158,
+  "y_c": 47,
+  "effect": 0.015692519568286517,
+  "lower": 0.0029662256286375806,
+  "upper": 0.02710792566527968,
+  "srm_p": 2.5651553169618826e-156,
+  "net": {
+   "point": 812.3267611457866,
+   "lower": -333.03969342261775,
+   "upper": 1839.713309875171
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 1124,
+  "n_c": 504,
+  "y_t": 44,
+  "y_c": 13,
+  "effect": 0.013352256679658815,
+  "lower": -0.007023692310596307,
+  "upper": 0.030160728958601186,
+  "srm_p": 2.761830191268993e-53,
+  "net": {
+   "point": 601.7031011692934,
+   "lower": -1232.1323079536676,
+   "upper": 2114.4656062741064
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 2105,
+  "n_c": 910,
+  "y_t": 114,
+  "y_c": 34,
+  "effect": 0.016794132233562166,
+  "lower": -0.00011911040825583752,
+  "upper": 0.03165040788399498,
+  "srm_p": 5.171966010575455e-105,
+  "net": {
+   "point": 911.4719010205949,
+   "lower": -610.7199367430254,
+   "upper": 2248.5367095595484
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 2187,
+  "n_c": 983,
+  "y_t": 281,
+  "y_c": 120,
+  "effect": 0.00641123144671113,
+  "lower": -0.019292616464776344,
+  "upper": 0.03042651302534374,
+  "srm_p": 1.867144217311272e-101,
+  "net": {
+   "point": -22.98916979599835,
+   "lower": -2336.3354818298712,
+   "upper": 2138.3861722809365
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 758,
+  "n_c": 332,
+  "y_t": 90,
+  "y_c": 33,
+  "effect": 0.019335918873382707,
+  "lower": -0.02319104455446709,
+  "upper": 0.05666296397552808,
+  "srm_p": 4.3196703205555576e-38,
+  "net": {
+   "point": 1140.2326986044436,
+   "lower": -2687.194009902038,
+   "upper": 4499.666757797527
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Evaluation",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 1429,
+  "n_c": 651,
+  "y_t": 191,
+  "y_c": 87,
+  "effect": 1.9349033999471743e-05,
+  "lower": -0.03282190914192807,
+  "upper": 0.030401513740973038,
+  "srm_p": 3.0077907701795473e-65,
+  "net": {
+   "point": -598.2585869400475,
+   "lower": -3553.971822773526,
+   "upper": 2136.1362366875733
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "All",
+  "n_t": 3659,
+  "n_c": 1655,
+  "y_t": 277,
+  "y_c": 95,
+  "effect": 0.01830193150358054,
+  "lower": 0.003585026899081214,
+  "upper": 0.03193176031759076,
+  "srm_p": 2.2634301541016604e-166,
+  "net": {
+   "point": 1047.1738353222486,
+   "lower": -277.3475790826908,
+   "upper": 2273.858428583169
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Desktop",
+  "n_t": 1243,
+  "n_c": 567,
+  "y_t": 102,
+  "y_c": 29,
+  "effect": 0.030913148907249208,
+  "lower": 0.005387922453903519,
+  "upper": 0.053472135193983444,
+  "srm_p": 7.504632524899729e-57,
+  "net": {
+   "point": 2182.1834016524285,
+   "lower": -115.08697914868327,
+   "upper": 4212.49216745851
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "All",
+  "device": "Mobile",
+  "n_t": 2416,
+  "n_c": 1088,
+  "y_t": 175,
+  "y_c": 66,
+  "effect": 0.011772010128554729,
+  "lower": -0.006743452371121197,
+  "upper": 0.02859036325881928,
+  "srm_p": 1.814136759034734e-111,
+  "net": {
+   "point": 459.4809115699254,
+   "lower": -1206.9107134009078,
+   "upper": 1973.132693293735
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "All",
+  "n_t": 2272,
+  "n_c": 1010,
+  "y_t": 102,
+  "y_c": 37,
+  "effect": 0.00826070283084647,
+  "lower": -0.007275987305719111,
+  "upper": 0.021880378737304418,
+  "srm_p": 1.5269372906684436e-107,
+  "net": {
+   "point": 143.46325477618223,
+   "lower": -1254.83885751472,
+   "upper": 1369.2340863573977
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Desktop",
+  "n_t": 762,
+  "n_c": 355,
+  "y_t": 38,
+  "y_c": 12,
+  "effect": 0.016065949502791027,
+  "lower": -0.011685137087597611,
+  "upper": 0.038967879977083134,
+  "srm_p": 4.082854734634628e-34,
+  "net": {
+   "point": 845.9354552511925,
+   "lower": -1651.662337883785,
+   "upper": 2907.1091979374823
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "New",
+  "device": "Mobile",
+  "n_t": 1510,
+  "n_c": 655,
+  "y_t": 64,
+  "y_c": 25,
+  "effect": 0.00421616702896719,
+  "lower": -0.015548303115631382,
+  "upper": 0.020884962352031952,
+  "srm_p": 2.0671945935820591e-75,
+  "net": {
+   "point": -220.54496739295297,
+   "lower": -1999.3472804068242,
+   "upper": 1279.6466116828756
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "All",
+  "n_t": 1387,
+  "n_c": 645,
+  "y_t": 175,
+  "y_c": 58,
+  "effect": 0.03624911274682405,
+  "lower": 0.006679218954732554,
+  "upper": 0.06329562172442041,
+  "srm_p": 7.055838807133755e-61,
+  "net": {
+   "point": 2662.420147214164,
+   "lower": 1.1297059259298976,
+   "upper": 5096.605955197837
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Desktop",
+  "n_t": 481,
+  "n_c": 212,
+  "y_t": 64,
+  "y_c": 17,
+  "effect": 0.05286745381085005,
+  "lower": 0.000604273623352497,
+  "upper": 0.09735360120136387,
+  "srm_p": 1.6391584248975954e-24,
+  "net": {
+   "point": 4158.0708429765045,
+   "lower": -545.6153738982753,
+   "upper": 8161.824108122748
+  },
+  "decision": "Investigate data"
+ },
+ {
+  "experiment": "missing_controls",
+  "split": "Development",
+  "customer_type": "Returning",
+  "device": "Mobile",
+  "n_t": 906,
+  "n_c": 433,
+  "y_t": 111,
+  "y_c": 41,
+  "effect": 0.027828334582383804,
+  "lower": -0.009150930924179318,
+  "upper": 0.06112927497060958,
+  "srm_p": 3.202629369457166e-38,
+  "net": {
+   "point": 1904.5501124145421,
+   "lower": -1423.5837831761387,
+   "upper": 4901.634747354862
+  },
+  "decision": "Investigate data"
+ }
+]

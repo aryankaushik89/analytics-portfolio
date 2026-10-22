@@ -1,0 +1,3544 @@
+{
+ "metadata": {
+  "seed": 89,
+  "synthetic": true,
+  "extract_at": "2026-03-01T00:00:00Z",
+  "window_days": 7,
+  "planned_treatment_share": 0.5,
+  "srm_alpha": 0.001,
+  "default_cost": 0.6,
+  "default_contribution": 90,
+  "currency": "CAD",
+  "experiments": [
+   {
+    "experiment_id": "retargeting",
+    "name": "Retargeting campaign",
+    "users": 100000,
+    "new_effect": 0.008,
+    "returning_effect": 0.032,
+    "drop_controls": 0.0,
+    "note": "Main synthetic experiment. Effects vary by customer type."
+   },
+   {
+    "experiment_id": "small_test",
+    "name": "Small campaign test",
+    "users": 5000,
+    "new_effect": 0.002,
+    "returning_effect": 0.002,
+    "drop_controls": 0.0,
+    "note": "A smaller, weak-effect scenario. An uncertain result is useful too."
+   },
+   {
+    "experiment_id": "missing_controls",
+    "name": "Missing control records",
+    "users": 18000,
+    "new_effect": 0.008,
+    "returning_effect": 0.032,
+    "drop_controls": 0.55,
+    "note": "Deliberately broken extract. Some assigned control users are missing."
+   }
+  ]
+ },
+ "counts": [
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 355,
+   "conversions": 12,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 762,
+   "conversions": 38,
+   "exposed": 593
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 655,
+   "conversions": 25,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 1510,
+   "conversions": 64,
+   "exposed": 1176
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 212,
+   "conversions": 17,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 481,
+   "conversions": 64,
+   "exposed": 377
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 433,
+   "conversions": 41,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 906,
+   "conversions": 111,
+   "exposed": 687
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 504,
+   "conversions": 13,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 1124,
+   "conversions": 44,
+   "exposed": 865
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 910,
+   "conversions": 34,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 2105,
+   "conversions": 114,
+   "exposed": 1656
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 332,
+   "conversions": 33,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 758,
+   "conversions": 90,
+   "exposed": 593
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 651,
+   "conversions": 87,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 1429,
+   "conversions": 191,
+   "exposed": 1096
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 4206,
+   "conversions": 145,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 4305,
+   "conversions": 198,
+   "exposed": 3376
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 7774,
+   "conversions": 328,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 7677,
+   "conversions": 364,
+   "exposed": 6015
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 2811,
+   "conversions": 278,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 2694,
+   "conversions": 370,
+   "exposed": 2144
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 5075,
+   "conversions": 563,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 5173,
+   "conversions": 715,
+   "exposed": 4033
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 6251,
+   "conversions": 235,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 6355,
+   "conversions": 279,
+   "exposed": 4999
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 11822,
+   "conversions": 478,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 11615,
+   "conversions": 518,
+   "exposed": 9019
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 4285,
+   "conversions": 476,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 4222,
+   "conversions": 561,
+   "exposed": 3304
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 7924,
+   "conversions": 842,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 7811,
+   "conversions": 1049,
+   "exposed": 6097
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 215,
+   "conversions": 8,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 205,
+   "conversions": 8,
+   "exposed": 161
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 383,
+   "conversions": 22,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 387,
+   "conversions": 15,
+   "exposed": 295
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 151,
+   "conversions": 13,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 146,
+   "conversions": 18,
+   "exposed": 110
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 249,
+   "conversions": 23,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Development",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 273,
+   "conversions": 39,
+   "exposed": 217
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 340,
+   "conversions": 13,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 311,
+   "conversions": 10,
+   "exposed": 229
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 589,
+   "conversions": 27,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "New",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 557,
+   "conversions": 21,
+   "exposed": 446
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Control",
+   "users": 198,
+   "conversions": 23,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "arm": "Treatment",
+   "users": 197,
+   "conversions": 15,
+   "exposed": 155
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Control",
+   "users": 414,
+   "conversions": 42,
+   "exposed": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "split": "Evaluation",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "arm": "Treatment",
+   "users": 385,
+   "conversions": 37,
+   "exposed": 314
+  }
+ ],
+ "quality": [
+  {
+   "experiment_id": "missing_controls",
+   "assigned_users": 13127,
+   "srm_p": 0.0,
+   "missing_assignment_event_users": 349,
+   "blocked": true
+  },
+  {
+   "experiment_id": "retargeting",
+   "assigned_users": 100000,
+   "srm_p": 0.3492555858969515,
+   "missing_assignment_event_users": 0,
+   "blocked": false
+  },
+  {
+   "experiment_id": "small_test",
+   "assigned_users": 5000,
+   "srm_p": 0.26998956870141794,
+   "missing_assignment_event_users": 0,
+   "blocked": false
+  }
+ ],
+ "selected_groups": {
+  "retargeting": "Returning",
+  "small_test": "Returning",
+  "missing_controls": "Returning"
+ },
+ "examples": [
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000000",
+   "assigned_at": "2026-02-18T04:03:14Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000001",
+   "assigned_at": "2026-02-12T12:22:22Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000002",
+   "assigned_at": "2026-02-06T00:35:36Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000003",
+   "assigned_at": "2026-02-16T09:34:14Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000004",
+   "assigned_at": "2026-02-01T05:37:58Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000005",
+   "assigned_at": "2026-02-15T14:56:13Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000006",
+   "assigned_at": "2026-02-03T19:03:59Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000007",
+   "assigned_at": "2026-02-01T09:26:14Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000008",
+   "assigned_at": "2026-02-15T16:36:36Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000009",
+   "assigned_at": "2026-02-11T19:14:02Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000010",
+   "assigned_at": "2026-02-06T20:19:07Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000011",
+   "assigned_at": "2026-02-19T00:32:41Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000013",
+   "assigned_at": "2026-02-16T13:33:09Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000014",
+   "assigned_at": "2026-02-02T10:55:51Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000015",
+   "assigned_at": "2026-02-14T05:18:39Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000016",
+   "assigned_at": "2026-02-17T11:17:59Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000017",
+   "assigned_at": "2026-02-06T22:00:38Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000018",
+   "assigned_at": "2026-02-08T00:45:46Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000019",
+   "assigned_at": "2026-02-04T13:06:26Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000020",
+   "assigned_at": "2026-02-20T23:35:10Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000021",
+   "assigned_at": "2026-02-10T21:30:26Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000022",
+   "assigned_at": "2026-02-16T05:17:51Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000023",
+   "assigned_at": "2026-02-19T22:33:40Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000024",
+   "assigned_at": "2026-02-08T02:47:07Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000025",
+   "assigned_at": "2026-02-18T20:24:49Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000026",
+   "assigned_at": "2026-02-08T10:10:23Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000029",
+   "assigned_at": "2026-02-19T09:26:02Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000032",
+   "assigned_at": "2026-02-07T23:48:07Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000033",
+   "assigned_at": "2026-02-15T23:19:54Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000035",
+   "assigned_at": "2026-02-07T13:35:04Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000036",
+   "assigned_at": "2026-02-12T11:12:12Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000039",
+   "assigned_at": "2026-02-07T02:52:32Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000042",
+   "assigned_at": "2026-02-14T18:30:07Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000043",
+   "assigned_at": "2026-02-07T13:13:12Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000046",
+   "assigned_at": "2026-02-13T19:18:24Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000047",
+   "assigned_at": "2026-02-08T16:43:43Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000049",
+   "assigned_at": "2026-02-06T22:36:21Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000050",
+   "assigned_at": "2026-02-09T11:56:24Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000057",
+   "assigned_at": "2026-02-10T14:08:33Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000058",
+   "assigned_at": "2026-02-08T00:27:29Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000059",
+   "assigned_at": "2026-02-13T06:38:04Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000064",
+   "assigned_at": "2026-02-13T05:01:22Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000066",
+   "assigned_at": "2026-02-12T02:28:56Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000068",
+   "assigned_at": "2026-02-02T23:13:18Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000071",
+   "assigned_at": "2026-02-19T16:04:19Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000081",
+   "assigned_at": "2026-02-08T00:16:27Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000089",
+   "assigned_at": "2026-02-09T05:38:22Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000091",
+   "assigned_at": "2026-02-06T22:59:09Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000000",
+   "assigned_at": "2026-02-16T14:23:11Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000001",
+   "assigned_at": "2026-02-10T04:56:26Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000002",
+   "assigned_at": "2026-02-13T17:14:45Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000003",
+   "assigned_at": "2026-02-03T06:57:23Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000004",
+   "assigned_at": "2026-02-19T05:01:00Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000005",
+   "assigned_at": "2026-02-18T04:18:04Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000006",
+   "assigned_at": "2026-02-20T22:08:10Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000007",
+   "assigned_at": "2026-02-07T13:36:48Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000008",
+   "assigned_at": "2026-02-02T02:25:23Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000009",
+   "assigned_at": "2026-02-20T19:43:19Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000010",
+   "assigned_at": "2026-02-19T16:19:38Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000011",
+   "assigned_at": "2026-02-04T06:59:31Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000012",
+   "assigned_at": "2026-02-06T10:12:35Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000013",
+   "assigned_at": "2026-02-04T18:10:08Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000014",
+   "assigned_at": "2026-02-05T21:13:16Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000015",
+   "assigned_at": "2026-02-17T03:35:01Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000016",
+   "assigned_at": "2026-02-09T22:51:14Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000017",
+   "assigned_at": "2026-02-12T04:28:22Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000018",
+   "assigned_at": "2026-02-09T01:45:53Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000019",
+   "assigned_at": "2026-02-03T07:43:28Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000020",
+   "assigned_at": "2026-02-14T05:29:55Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000021",
+   "assigned_at": "2026-02-13T15:13:18Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000023",
+   "assigned_at": "2026-02-04T08:55:31Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000024",
+   "assigned_at": "2026-02-06T13:08:36Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000025",
+   "assigned_at": "2026-02-14T12:21:32Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000026",
+   "assigned_at": "2026-02-12T04:26:13Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000028",
+   "assigned_at": "2026-02-01T23:30:18Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000029",
+   "assigned_at": "2026-02-13T08:42:42Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000030",
+   "assigned_at": "2026-02-14T17:29:32Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000031",
+   "assigned_at": "2026-02-17T04:56:14Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000032",
+   "assigned_at": "2026-02-12T01:31:53Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000033",
+   "assigned_at": "2026-02-15T11:52:06Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000035",
+   "assigned_at": "2026-02-12T11:29:29Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000037",
+   "assigned_at": "2026-02-04T21:30:53Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000039",
+   "assigned_at": "2026-02-20T15:24:06Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000044",
+   "assigned_at": "2026-02-19T14:52:53Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000045",
+   "assigned_at": "2026-02-15T08:40:32Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000047",
+   "assigned_at": "2026-02-06T13:42:52Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000060",
+   "assigned_at": "2026-02-15T10:36:18Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000065",
+   "assigned_at": "2026-02-19T11:37:28Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000068",
+   "assigned_at": "2026-02-14T16:32:47Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000092",
+   "assigned_at": "2026-02-01T08:10:25Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000097",
+   "assigned_at": "2026-02-02T19:28:49Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000104",
+   "assigned_at": "2026-02-04T22:21:17Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000106",
+   "assigned_at": "2026-02-10T14:49:22Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000112",
+   "assigned_at": "2026-02-02T04:19:51Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000206",
+   "assigned_at": "2026-02-20T09:59:47Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000240",
+   "assigned_at": "2026-02-18T12:39:14Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000000",
+   "assigned_at": "2026-02-19T12:31:06Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000002",
+   "assigned_at": "2026-02-16T05:24:40Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000003",
+   "assigned_at": "2026-02-16T19:12:53Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000005",
+   "assigned_at": "2026-02-09T12:13:50Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000010",
+   "assigned_at": "2026-02-09T02:30:59Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000011",
+   "assigned_at": "2026-02-05T01:59:42Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000012",
+   "assigned_at": "2026-02-09T18:19:05Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000013",
+   "assigned_at": "2026-02-09T23:32:07Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000016",
+   "assigned_at": "2026-02-15T10:37:31Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000017",
+   "assigned_at": "2026-02-16T09:09:42Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000018",
+   "assigned_at": "2026-02-06T13:54:08Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000019",
+   "assigned_at": "2026-02-04T01:07:55Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000020",
+   "assigned_at": "2026-02-10T16:15:47Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000022",
+   "assigned_at": "2026-02-18T03:24:31Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000023",
+   "assigned_at": "2026-02-01T08:08:51Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000024",
+   "assigned_at": "2026-02-07T10:44:55Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000025",
+   "assigned_at": "2026-02-05T11:51:02Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000026",
+   "assigned_at": "2026-02-18T03:58:03Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000028",
+   "assigned_at": "2026-02-06T15:30:27Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000032",
+   "assigned_at": "2026-02-01T21:31:44Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000035",
+   "assigned_at": "2026-02-01T12:28:24Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000044",
+   "assigned_at": "2026-02-15T14:07:58Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000045",
+   "assigned_at": "2026-02-17T14:08:44Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000046",
+   "assigned_at": "2026-02-19T13:32:53Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000047",
+   "assigned_at": "2026-02-06T20:58:16Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000048",
+   "assigned_at": "2026-02-08T07:04:14Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000049",
+   "assigned_at": "2026-02-05T07:45:57Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000052",
+   "assigned_at": "2026-02-11T06:33:35Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000053",
+   "assigned_at": "2026-02-07T20:07:51Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000059",
+   "assigned_at": "2026-02-01T02:04:31Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000060",
+   "assigned_at": "2026-02-08T02:46:34Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000063",
+   "assigned_at": "2026-02-14T09:51:53Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000067",
+   "assigned_at": "2026-02-02T23:16:25Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000071",
+   "assigned_at": "2026-02-11T19:03:54Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000073",
+   "assigned_at": "2026-02-18T03:50:49Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000079",
+   "assigned_at": "2026-02-08T05:57:50Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000080",
+   "assigned_at": "2026-02-15T20:04:19Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000091",
+   "assigned_at": "2026-02-09T01:54:59Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000092",
+   "assigned_at": "2026-02-17T09:12:18Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000093",
+   "assigned_at": "2026-02-10T10:29:15Z",
+   "arm": "Control",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000099",
+   "assigned_at": "2026-02-19T13:35:58Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 2,
+   "converted": 1
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000102",
+   "assigned_at": "2026-02-04T17:04:33Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000109",
+   "assigned_at": "2026-02-16T20:39:31Z",
+   "arm": "Treatment",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Development",
+   "exposed": 1,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000121",
+   "assigned_at": "2026-02-05T01:32:47Z",
+   "arm": "Treatment",
+   "customer_type": "New",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000130",
+   "assigned_at": "2026-02-07T02:10:05Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000140",
+   "assigned_at": "2026-02-16T02:27:38Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Desktop",
+   "split": "Evaluation",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000169",
+   "assigned_at": "2026-02-06T17:13:58Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000197",
+   "assigned_at": "2026-02-18T15:16:44Z",
+   "arm": "Control",
+   "customer_type": "Returning",
+   "device": "Mobile",
+   "split": "Development",
+   "exposed": 0,
+   "purchases_in_window": 0,
+   "converted": 0
+  }
+ ],
+ "events": [
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000008",
+   "event_at": "2026-02-22T06:57:47Z",
+   "event_id": "retargeting_purchase_000000",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000017",
+   "event_at": "2026-02-09T17:41:55Z",
+   "event_id": "retargeting_purchase_000001",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000046",
+   "event_at": "2026-02-20T07:30:32Z",
+   "event_id": "retargeting_purchase_000003",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000049",
+   "event_at": "2026-02-07T16:01:10Z",
+   "event_id": "retargeting_purchase_000004",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000091",
+   "event_at": "2026-02-12T10:09:05Z",
+   "event_id": "retargeting_purchase_000008",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000008",
+   "event_at": "2026-02-22T06:58:47Z",
+   "event_id": "retargeting_purchase_000000_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000017",
+   "event_at": "2026-02-09T17:42:55Z",
+   "event_id": "retargeting_purchase_000001_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000046",
+   "event_at": "2026-02-20T07:31:32Z",
+   "event_id": "retargeting_purchase_000003_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000049",
+   "event_at": "2026-02-07T16:02:10Z",
+   "event_id": "retargeting_purchase_000004_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000091",
+   "event_at": "2026-02-12T10:10:05Z",
+   "event_id": "retargeting_purchase_000008_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000000",
+   "event_at": "2026-02-27T04:03:14Z",
+   "event_id": "retargeting_000000_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000001",
+   "event_at": "2026-02-21T12:22:22Z",
+   "event_id": "retargeting_000001_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000002",
+   "event_at": "2026-02-15T00:35:36Z",
+   "event_id": "retargeting_000002_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000003",
+   "event_at": "2026-02-25T09:34:14Z",
+   "event_id": "retargeting_000003_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000004",
+   "event_at": "2026-02-10T05:37:58Z",
+   "event_id": "retargeting_000004_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000005",
+   "event_at": "2026-02-24T14:56:13Z",
+   "event_id": "retargeting_000005_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000006",
+   "event_at": "2026-02-12T19:03:59Z",
+   "event_id": "retargeting_000006_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000007",
+   "event_at": "2026-02-10T09:26:14Z",
+   "event_id": "retargeting_000007_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000008",
+   "event_at": "2026-02-24T16:36:36Z",
+   "event_id": "retargeting_000008_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000009",
+   "event_at": "2026-02-20T19:14:02Z",
+   "event_id": "retargeting_000009_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000010",
+   "event_at": "2026-02-15T20:19:07Z",
+   "event_id": "retargeting_000010_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000011",
+   "event_at": "2026-02-28T00:32:41Z",
+   "event_id": "retargeting_000011_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000013",
+   "event_at": "2026-02-25T13:33:09Z",
+   "event_id": "retargeting_000013_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000014",
+   "event_at": "2026-02-11T10:55:51Z",
+   "event_id": "retargeting_000014_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000015",
+   "event_at": "2026-02-23T05:18:39Z",
+   "event_id": "retargeting_000015_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000016",
+   "event_at": "2026-02-26T11:17:59Z",
+   "event_id": "retargeting_000016_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000017",
+   "event_at": "2026-02-15T22:00:38Z",
+   "event_id": "retargeting_000017_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000018",
+   "event_at": "2026-02-17T00:45:46Z",
+   "event_id": "retargeting_000018_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000019",
+   "event_at": "2026-02-13T13:06:26Z",
+   "event_id": "retargeting_000019_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000020",
+   "event_at": "2026-03-01T23:35:10Z",
+   "event_id": "retargeting_000020_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000021",
+   "event_at": "2026-02-19T21:30:26Z",
+   "event_id": "retargeting_000021_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000022",
+   "event_at": "2026-02-25T05:17:51Z",
+   "event_id": "retargeting_000022_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000023",
+   "event_at": "2026-02-28T22:33:40Z",
+   "event_id": "retargeting_000023_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000024",
+   "event_at": "2026-02-17T02:47:07Z",
+   "event_id": "retargeting_000024_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000025",
+   "event_at": "2026-02-27T20:24:49Z",
+   "event_id": "retargeting_000025_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000026",
+   "event_at": "2026-02-17T10:10:23Z",
+   "event_id": "retargeting_000026_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000029",
+   "event_at": "2026-02-28T09:26:02Z",
+   "event_id": "retargeting_000029_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000032",
+   "event_at": "2026-02-16T23:48:07Z",
+   "event_id": "retargeting_000032_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000033",
+   "event_at": "2026-02-24T23:19:54Z",
+   "event_id": "retargeting_000033_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000035",
+   "event_at": "2026-02-16T13:35:04Z",
+   "event_id": "retargeting_000035_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000036",
+   "event_at": "2026-02-21T11:12:12Z",
+   "event_id": "retargeting_000036_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000039",
+   "event_at": "2026-02-16T02:52:32Z",
+   "event_id": "retargeting_000039_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000042",
+   "event_at": "2026-02-23T18:30:07Z",
+   "event_id": "retargeting_000042_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000043",
+   "event_at": "2026-02-16T13:13:12Z",
+   "event_id": "retargeting_000043_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000046",
+   "event_at": "2026-02-22T19:18:24Z",
+   "event_id": "retargeting_000046_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000047",
+   "event_at": "2026-02-17T16:43:43Z",
+   "event_id": "retargeting_000047_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000049",
+   "event_at": "2026-02-15T22:36:21Z",
+   "event_id": "retargeting_000049_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000050",
+   "event_at": "2026-02-18T11:56:24Z",
+   "event_id": "retargeting_000050_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000057",
+   "event_at": "2026-02-19T14:08:33Z",
+   "event_id": "retargeting_000057_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000058",
+   "event_at": "2026-02-17T00:27:29Z",
+   "event_id": "retargeting_000058_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000059",
+   "event_at": "2026-02-22T06:38:04Z",
+   "event_id": "retargeting_000059_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000064",
+   "event_at": "2026-02-22T05:01:22Z",
+   "event_id": "retargeting_000064_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000066",
+   "event_at": "2026-02-21T02:28:56Z",
+   "event_id": "retargeting_000066_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000068",
+   "event_at": "2026-02-11T23:13:18Z",
+   "event_id": "retargeting_000068_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000000",
+   "event_at": "2026-02-18T02:03:14Z",
+   "event_id": "retargeting_000000_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000001",
+   "event_at": "2026-02-12T10:22:22Z",
+   "event_id": "retargeting_000001_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000002",
+   "event_at": "2026-02-05T22:35:36Z",
+   "event_id": "retargeting_000002_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000003",
+   "event_at": "2026-02-16T07:34:14Z",
+   "event_id": "retargeting_000003_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000004",
+   "event_at": "2026-02-01T03:37:58Z",
+   "event_id": "retargeting_000004_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000005",
+   "event_at": "2026-02-15T12:56:13Z",
+   "event_id": "retargeting_000005_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000006",
+   "event_at": "2026-02-03T17:03:59Z",
+   "event_id": "retargeting_000006_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000007",
+   "event_at": "2026-02-01T07:26:14Z",
+   "event_id": "retargeting_000007_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000008",
+   "event_at": "2026-02-15T14:36:36Z",
+   "event_id": "retargeting_000008_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000009",
+   "event_at": "2026-02-11T17:14:02Z",
+   "event_id": "retargeting_000009_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000010",
+   "event_at": "2026-02-06T18:19:07Z",
+   "event_id": "retargeting_000010_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "retargeting",
+   "user_id": "retargeting_000011",
+   "event_at": "2026-02-18T22:32:41Z",
+   "event_id": "retargeting_000011_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000016",
+   "event_at": "2026-02-11T10:06:04Z",
+   "event_id": "small_test_purchase_000000",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000021",
+   "event_at": "2026-02-19T17:02:12Z",
+   "event_id": "small_test_purchase_000001",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000029",
+   "event_at": "2026-02-19T05:15:34Z",
+   "event_id": "small_test_purchase_000002",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000031",
+   "event_at": "2026-02-23T16:49:13Z",
+   "event_id": "small_test_purchase_000003",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000016",
+   "event_at": "2026-02-11T10:07:04Z",
+   "event_id": "small_test_purchase_000000_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000021",
+   "event_at": "2026-02-19T17:03:12Z",
+   "event_id": "small_test_purchase_000001_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000029",
+   "event_at": "2026-02-19T05:16:34Z",
+   "event_id": "small_test_purchase_000002_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000031",
+   "event_at": "2026-02-23T16:50:13Z",
+   "event_id": "small_test_purchase_000003_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000000",
+   "event_at": "2026-02-25T14:23:11Z",
+   "event_id": "small_test_000000_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000001",
+   "event_at": "2026-02-19T04:56:26Z",
+   "event_id": "small_test_000001_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000002",
+   "event_at": "2026-02-22T17:14:45Z",
+   "event_id": "small_test_000002_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000003",
+   "event_at": "2026-02-12T06:57:23Z",
+   "event_id": "small_test_000003_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000004",
+   "event_at": "2026-02-28T05:01:00Z",
+   "event_id": "small_test_000004_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000005",
+   "event_at": "2026-02-27T04:18:04Z",
+   "event_id": "small_test_000005_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000006",
+   "event_at": "2026-03-01T22:08:10Z",
+   "event_id": "small_test_000006_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000007",
+   "event_at": "2026-02-16T13:36:48Z",
+   "event_id": "small_test_000007_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000008",
+   "event_at": "2026-02-11T02:25:23Z",
+   "event_id": "small_test_000008_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000009",
+   "event_at": "2026-03-01T19:43:19Z",
+   "event_id": "small_test_000009_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000010",
+   "event_at": "2026-02-28T16:19:38Z",
+   "event_id": "small_test_000010_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000011",
+   "event_at": "2026-02-13T06:59:31Z",
+   "event_id": "small_test_000011_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000012",
+   "event_at": "2026-02-15T10:12:35Z",
+   "event_id": "small_test_000012_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000013",
+   "event_at": "2026-02-13T18:10:08Z",
+   "event_id": "small_test_000013_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000014",
+   "event_at": "2026-02-14T21:13:16Z",
+   "event_id": "small_test_000014_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000015",
+   "event_at": "2026-02-26T03:35:01Z",
+   "event_id": "small_test_000015_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000016",
+   "event_at": "2026-02-18T22:51:14Z",
+   "event_id": "small_test_000016_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000017",
+   "event_at": "2026-02-21T04:28:22Z",
+   "event_id": "small_test_000017_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000018",
+   "event_at": "2026-02-18T01:45:53Z",
+   "event_id": "small_test_000018_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000019",
+   "event_at": "2026-02-12T07:43:28Z",
+   "event_id": "small_test_000019_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000020",
+   "event_at": "2026-02-23T05:29:55Z",
+   "event_id": "small_test_000020_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000021",
+   "event_at": "2026-02-22T15:13:18Z",
+   "event_id": "small_test_000021_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000023",
+   "event_at": "2026-02-13T08:55:31Z",
+   "event_id": "small_test_000023_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000024",
+   "event_at": "2026-02-15T13:08:36Z",
+   "event_id": "small_test_000024_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000025",
+   "event_at": "2026-02-23T12:21:32Z",
+   "event_id": "small_test_000025_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000026",
+   "event_at": "2026-02-21T04:26:13Z",
+   "event_id": "small_test_000026_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000028",
+   "event_at": "2026-02-10T23:30:18Z",
+   "event_id": "small_test_000028_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000029",
+   "event_at": "2026-02-22T08:42:42Z",
+   "event_id": "small_test_000029_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000030",
+   "event_at": "2026-02-23T17:29:32Z",
+   "event_id": "small_test_000030_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000031",
+   "event_at": "2026-02-26T04:56:14Z",
+   "event_id": "small_test_000031_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000032",
+   "event_at": "2026-02-21T01:31:53Z",
+   "event_id": "small_test_000032_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000033",
+   "event_at": "2026-02-24T11:52:06Z",
+   "event_id": "small_test_000033_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000035",
+   "event_at": "2026-02-21T11:29:29Z",
+   "event_id": "small_test_000035_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000037",
+   "event_at": "2026-02-13T21:30:53Z",
+   "event_id": "small_test_000037_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000039",
+   "event_at": "2026-03-01T15:24:06Z",
+   "event_id": "small_test_000039_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000044",
+   "event_at": "2026-02-28T14:52:53Z",
+   "event_id": "small_test_000044_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000045",
+   "event_at": "2026-02-24T08:40:32Z",
+   "event_id": "small_test_000045_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000047",
+   "event_at": "2026-02-15T13:42:52Z",
+   "event_id": "small_test_000047_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000060",
+   "event_at": "2026-02-24T10:36:18Z",
+   "event_id": "small_test_000060_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000065",
+   "event_at": "2026-02-28T11:37:28Z",
+   "event_id": "small_test_000065_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000068",
+   "event_at": "2026-02-23T16:32:47Z",
+   "event_id": "small_test_000068_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000000",
+   "event_at": "2026-02-16T12:23:11Z",
+   "event_id": "small_test_000000_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000001",
+   "event_at": "2026-02-10T02:56:26Z",
+   "event_id": "small_test_000001_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000002",
+   "event_at": "2026-02-13T15:14:45Z",
+   "event_id": "small_test_000002_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000003",
+   "event_at": "2026-02-03T04:57:23Z",
+   "event_id": "small_test_000003_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000004",
+   "event_at": "2026-02-19T03:01:00Z",
+   "event_id": "small_test_000004_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000005",
+   "event_at": "2026-02-18T02:18:04Z",
+   "event_id": "small_test_000005_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000006",
+   "event_at": "2026-02-20T20:08:10Z",
+   "event_id": "small_test_000006_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000007",
+   "event_at": "2026-02-07T11:36:48Z",
+   "event_id": "small_test_000007_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000008",
+   "event_at": "2026-02-02T00:25:23Z",
+   "event_id": "small_test_000008_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000009",
+   "event_at": "2026-02-20T17:43:19Z",
+   "event_id": "small_test_000009_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000010",
+   "event_at": "2026-02-19T14:19:38Z",
+   "event_id": "small_test_000010_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "small_test",
+   "user_id": "small_test_000011",
+   "event_at": "2026-02-04T04:59:31Z",
+   "event_id": "small_test_000011_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000003",
+   "event_at": "2026-02-21T07:11:34Z",
+   "event_id": "missing_controls_purchase_000000",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000026",
+   "event_at": "2026-02-23T22:41:04Z",
+   "event_id": "missing_controls_purchase_000001",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000047",
+   "event_at": "2026-02-07T19:07:49Z",
+   "event_id": "missing_controls_purchase_000003",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000099",
+   "event_at": "2026-02-26T01:06:54Z",
+   "event_id": "missing_controls_purchase_000007",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000003",
+   "event_at": "2026-02-21T07:12:34Z",
+   "event_id": "missing_controls_purchase_000000_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000026",
+   "event_at": "2026-02-23T22:42:04Z",
+   "event_id": "missing_controls_purchase_000001_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000047",
+   "event_at": "2026-02-07T19:08:49Z",
+   "event_id": "missing_controls_purchase_000003_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000099",
+   "event_at": "2026-02-26T01:07:54Z",
+   "event_id": "missing_controls_purchase_000007_second",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000000",
+   "event_at": "2026-02-28T12:31:06Z",
+   "event_id": "missing_controls_000000_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000002",
+   "event_at": "2026-02-25T05:24:40Z",
+   "event_id": "missing_controls_000002_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000003",
+   "event_at": "2026-02-25T19:12:53Z",
+   "event_id": "missing_controls_000003_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000005",
+   "event_at": "2026-02-18T12:13:50Z",
+   "event_id": "missing_controls_000005_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000010",
+   "event_at": "2026-02-18T02:30:59Z",
+   "event_id": "missing_controls_000010_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000011",
+   "event_at": "2026-02-14T01:59:42Z",
+   "event_id": "missing_controls_000011_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000012",
+   "event_at": "2026-02-18T18:19:05Z",
+   "event_id": "missing_controls_000012_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000013",
+   "event_at": "2026-02-18T23:32:07Z",
+   "event_id": "missing_controls_000013_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000016",
+   "event_at": "2026-02-24T10:37:31Z",
+   "event_id": "missing_controls_000016_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000017",
+   "event_at": "2026-02-25T09:09:42Z",
+   "event_id": "missing_controls_000017_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000018",
+   "event_at": "2026-02-15T13:54:08Z",
+   "event_id": "missing_controls_000018_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000019",
+   "event_at": "2026-02-13T01:07:55Z",
+   "event_id": "missing_controls_000019_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000020",
+   "event_at": "2026-02-19T16:15:47Z",
+   "event_id": "missing_controls_000020_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000022",
+   "event_at": "2026-02-27T03:24:31Z",
+   "event_id": "missing_controls_000022_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000023",
+   "event_at": "2026-02-10T08:08:51Z",
+   "event_id": "missing_controls_000023_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000024",
+   "event_at": "2026-02-16T10:44:55Z",
+   "event_id": "missing_controls_000024_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000025",
+   "event_at": "2026-02-14T11:51:02Z",
+   "event_id": "missing_controls_000025_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000026",
+   "event_at": "2026-02-27T03:58:03Z",
+   "event_id": "missing_controls_000026_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000028",
+   "event_at": "2026-02-15T15:30:27Z",
+   "event_id": "missing_controls_000028_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000032",
+   "event_at": "2026-02-10T21:31:44Z",
+   "event_id": "missing_controls_000032_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000035",
+   "event_at": "2026-02-10T12:28:24Z",
+   "event_id": "missing_controls_000035_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000044",
+   "event_at": "2026-02-24T14:07:58Z",
+   "event_id": "missing_controls_000044_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000045",
+   "event_at": "2026-02-26T14:08:44Z",
+   "event_id": "missing_controls_000045_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000046",
+   "event_at": "2026-02-28T13:32:53Z",
+   "event_id": "missing_controls_000046_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000047",
+   "event_at": "2026-02-15T20:58:16Z",
+   "event_id": "missing_controls_000047_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000048",
+   "event_at": "2026-02-17T07:04:14Z",
+   "event_id": "missing_controls_000048_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000049",
+   "event_at": "2026-02-14T07:45:57Z",
+   "event_id": "missing_controls_000049_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000052",
+   "event_at": "2026-02-20T06:33:35Z",
+   "event_id": "missing_controls_000052_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000053",
+   "event_at": "2026-02-16T20:07:51Z",
+   "event_id": "missing_controls_000053_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000059",
+   "event_at": "2026-02-10T02:04:31Z",
+   "event_id": "missing_controls_000059_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000060",
+   "event_at": "2026-02-17T02:46:34Z",
+   "event_id": "missing_controls_000060_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000063",
+   "event_at": "2026-02-23T09:51:53Z",
+   "event_id": "missing_controls_000063_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000067",
+   "event_at": "2026-02-11T23:16:25Z",
+   "event_id": "missing_controls_000067_late",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000000",
+   "event_at": "2026-02-19T10:31:06Z",
+   "event_id": "missing_controls_000000_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000002",
+   "event_at": "2026-02-16T03:24:40Z",
+   "event_id": "missing_controls_000002_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000003",
+   "event_at": "2026-02-16T17:12:53Z",
+   "event_id": "missing_controls_000003_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000005",
+   "event_at": "2026-02-09T10:13:50Z",
+   "event_id": "missing_controls_000005_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000010",
+   "event_at": "2026-02-09T00:30:59Z",
+   "event_id": "missing_controls_000010_before",
+   "event_type": "purchase"
+  },
+  {
+   "experiment_id": "missing_controls",
+   "user_id": "missing_controls_000011",
+   "event_at": "2026-02-04T23:59:42Z",
+   "event_id": "missing_controls_000011_before",
+   "event_type": "purchase"
+  }
+ ],
+ "checks": [
+  {
+   "check": "Unique user output",
+   "passed": true
+  },
+  {
+   "check": "Assignment re-deliveries are identical",
+   "passed": true
+  },
+  {
+   "check": "Event re-deliveries are identical",
+   "passed": true
+  },
+  {
+   "check": "Every assignment has seven complete days",
+   "passed": true
+  },
+  {
+   "check": "SQL and pandas have the same users",
+   "passed": true
+  },
+  {
+   "check": "SQL and pandas conversion flags agree",
+   "passed": true
+  },
+  {
+   "check": "SQL and pandas purchase counts agree",
+   "passed": true
+  },
+  {
+   "check": "Development and evaluation IDs are disjoint",
+   "passed": true
+  },
+  {
+   "check": "Conversions cannot exceed users",
+   "passed": true
+  },
+  {
+   "check": "No unknown experiment labels",
+   "passed": true
+  }
+ ]
+}

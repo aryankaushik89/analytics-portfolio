@@ -5,7 +5,7 @@ This is the planned order. Only released projects contain completed work. The or
 | # | Project | Main evidence | Status |
 | --- | --- | --- | --- |
 | 01 | SaaS Revenue Control Room | SQL, recurring revenue, retention, reconciliation and an interactive ledger | Released |
-| 02 | Marketing Lift and Experiment Lab | Experiment design, incremental effects, confidence intervals and a campaign decision | Planned |
+| 02 | [Marketing Lift and Experiment Lab](projects/02_marketing_lift_experiment_lab) | Synthetic randomized experiments, incremental effects, confidence intervals and quality gates | Released |
 | 03 | Fraud Decision Desk | Thresholds, false positives, review capacity and cost assumptions | Planned |
 | 04 | Ask Your Metrics | Traceable natural language questions, validated SQL and evaluated answers | Planned |
 | 05 | Merchant Pricing and Profitability | Pricing, transaction mix, contribution margin and scenario analysis | Planned |
