@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aryan Kaushik's subscription analytics project. Trace revenue changes, retention and billing records using clearly labelled synthetic data.">
+  <title>Revenue Room | Aryan Kaushik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="Revenue Room home"><span class="brand-mark">r.</span><span>REVENUE<br>ROOM<span class="brand-small">ANALYTICS WORKSPACE</span></span></a>
+    <p class="nav-label">YOUR WORKSPACE</p>
+    <nav aria-label="Project views">
+      <button class="nav-button active" data-tab="overview"><span>◫</span> Revenue overview</button>
+      <button class="nav-button" data-tab="customers"><span>◎</span> Customer ledger</button>
+      <button class="nav-button" data-tab="billing"><span>▤</span> Billing & collections</button>
+      <button class="nav-button" data-tab="definitions"><span>⌘</span> How this works</button>
+    </nav>
+    <div class="sidebar-note"><span class="note-dot"></span> ONE QUESTION, CLEAR NUMBERS<p>Where did recurring revenue change, and can I explain every dollar?</p></div>
+    <div class="sidebar-footer"><span class="avatar">AK</span><div>Aryan Kaushik<small>Portfolio project 01</small></div></div>
+  </aside>
+
+  <main>
+    <header class="topbar"><span>Portfolio / <b>Commercial analytics</b></span><span class="data-tag"><i></i> SYNTHETIC DEMO DATA</span></header>
+    <section class="page-heading"><div><p class="eyebrow">THE REVENUE PICTURE</p><h1>Growth, with the details.</h1><p class="subtitle">Follow the movement from subscription records to a business decision.</p></div><button class="secondary" id="walkthrough-button">Take a quick tour <span>↗</span></button></section>
+
+    <section class="filters" aria-label="Report filters">
+      <label>Reporting month<select id="month-filter"></select></label>
+      <label>Region<select id="region-filter"><option value="All">All regions</option><option>Canada</option><option>United States</option><option>Europe</option></select></label>
+      <label>Acquisition channel<select id="channel-filter"><option value="All">All channels</option><option>Organic</option><option>Paid search</option><option>Partner</option><option>Outbound</option></select></label>
+      <button class="text-button" id="reset-button">Reset filters ↺</button>
+      <div class="currency-note">Reporting in <strong>CAD</strong><small>Monthly simulated FX rates</small></div>
+    </section>
+    <div id="view" aria-live="polite"></div>
+    <footer class="page-footer"><span>Built by Aryan Kaushik · Python, SQL & business analytics</span><span>Demonstration results · Data through September 2026</span></footer>
+  </main>
+
+  <dialog id="detail-dialog"><button class="close-button" id="close-dialog" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
+  <script src="data.js"></script>
+  <script src="metrics.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

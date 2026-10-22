@@ -1,0 +1,9 @@
+check,passed
+One customer per month,True
+Every customer movement reconciles,True
+Every monthly bridge reconciles,True
+Invoice cash and balance reconcile,True
+Outstanding balances are nonnegative,True
+Three repeated event deliveries found,True
+Two repeated invoice rows removed,True
+Free accounts have no recurring revenue,True

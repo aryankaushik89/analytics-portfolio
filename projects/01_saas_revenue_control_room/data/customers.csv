@@ -1,0 +1,361 @@
+customer_id,company,region,channel,currency,signup_date
+C0001,Maple Annual,Canada,Organic,CAD,2024-12-01
+C0002,Harbour USD,United States,Organic,USD,2024-12-01
+C0003,Free Workspace,Canada,Organic,CAD,2024-12-01
+C0004,Midmonth Upgrade,Canada,Organic,CAD,2024-12-01
+C0005,Annual New Business,Canada,Organic,CAD,2026-02-01
+C0006,Returning Account,Canada,Organic,CAD,2024-12-01
+C0007,Cancelled Account,Canada,Organic,CAD,2024-12-01
+C0008,Past Due Account,Canada,Organic,CAD,2024-12-01
+C0009,Demo company 009,Canada,Outbound,CAD,2024-12-01
+C0010,Demo company 010,Canada,Organic,CAD,2024-12-01
+C0011,Demo company 011,Canada,Outbound,CAD,2024-12-01
+C0012,Demo company 012,Canada,Outbound,CAD,2024-12-01
+C0013,Demo company 013,Canada,Outbound,CAD,2024-12-01
+C0014,Demo company 014,United States,Paid search,USD,2024-12-01
+C0015,Demo company 015,United States,Organic,USD,2024-12-01
+C0016,Demo company 016,Canada,Paid search,CAD,2024-12-01
+C0017,Demo company 017,Canada,Paid search,CAD,2024-12-01
+C0018,Demo company 018,Canada,Partner,CAD,2024-12-01
+C0019,Demo company 019,Canada,Paid search,CAD,2024-12-01
+C0020,Demo company 020,United States,Organic,USD,2024-12-01
+C0021,Demo company 021,Europe,Paid search,USD,2024-12-01
+C0022,Demo company 022,Canada,Organic,CAD,2024-12-01
+C0023,Demo company 023,Canada,Partner,CAD,2024-12-01
+C0024,Demo company 024,Europe,Paid search,USD,2024-12-01
+C0025,Demo company 025,United States,Organic,USD,2024-12-01
+C0026,Demo company 026,United States,Organic,USD,2024-12-01
+C0027,Demo company 027,Europe,Organic,USD,2024-12-01
+C0028,Demo company 028,United States,Partner,USD,2024-12-01
+C0029,Demo company 029,United States,Partner,USD,2024-12-01
+C0030,Demo company 030,United States,Organic,USD,2024-12-01
+C0031,Demo company 031,Europe,Organic,USD,2024-12-01
+C0032,Demo company 032,United States,Organic,USD,2024-12-01
+C0033,Demo company 033,Canada,Organic,CAD,2024-12-01
+C0034,Demo company 034,Canada,Organic,CAD,2024-12-01
+C0035,Demo company 035,United States,Organic,USD,2024-12-01
+C0036,Demo company 036,Canada,Organic,CAD,2024-12-01
+C0037,Demo company 037,Europe,Paid search,USD,2024-12-01
+C0038,Demo company 038,United States,Organic,USD,2024-12-01
+C0039,Demo company 039,Europe,Organic,USD,2024-12-01
+C0040,Demo company 040,Canada,Partner,CAD,2024-12-01
+C0041,Demo company 041,Canada,Paid search,CAD,2024-12-01
+C0042,Demo company 042,Canada,Organic,CAD,2024-12-01
+C0043,Demo company 043,Canada,Organic,CAD,2024-12-01
+C0044,Demo company 044,Canada,Partner,CAD,2024-12-01
+C0045,Demo company 045,United States,Paid search,USD,2024-12-01
+C0046,Demo company 046,Canada,Paid search,CAD,2024-12-01
+C0047,Demo company 047,Canada,Organic,CAD,2024-12-01
+C0048,Demo company 048,Canada,Partner,CAD,2024-12-01
+C0049,Demo company 049,United States,Partner,USD,2024-12-01
+C0050,Demo company 050,United States,Paid search,USD,2024-12-01
+C0051,Demo company 051,Canada,Partner,CAD,2024-12-01
+C0052,Demo company 052,Canada,Partner,CAD,2024-12-01
+C0053,Demo company 053,Canada,Organic,CAD,2024-12-01
+C0054,Demo company 054,United States,Paid search,USD,2024-12-01
+C0055,Demo company 055,Canada,Paid search,CAD,2024-12-01
+C0056,Demo company 056,Canada,Outbound,CAD,2024-12-01
+C0057,Demo company 057,Canada,Organic,CAD,2024-12-01
+C0058,Demo company 058,Canada,Organic,CAD,2024-12-01
+C0059,Demo company 059,Canada,Paid search,CAD,2024-12-01
+C0060,Demo company 060,Canada,Organic,CAD,2024-12-01
+C0061,Demo company 061,United States,Organic,USD,2024-12-01
+C0062,Demo company 062,Canada,Organic,CAD,2024-12-01
+C0063,Demo company 063,Canada,Organic,CAD,2024-12-01
+C0064,Demo company 064,United States,Organic,USD,2024-12-01
+C0065,Demo company 065,Canada,Partner,CAD,2024-12-01
+C0066,Demo company 066,United States,Organic,USD,2024-12-01
+C0067,Demo company 067,Canada,Organic,CAD,2024-12-01
+C0068,Demo company 068,Canada,Outbound,CAD,2024-12-01
+C0069,Demo company 069,Canada,Organic,CAD,2024-12-01
+C0070,Demo company 070,United States,Paid search,USD,2024-12-01
+C0071,Demo company 071,United States,Organic,USD,2024-12-01
+C0072,Demo company 072,Canada,Organic,CAD,2024-12-01
+C0073,Demo company 073,Canada,Organic,CAD,2024-12-01
+C0074,Demo company 074,Canada,Partner,CAD,2024-12-01
+C0075,Demo company 075,Canada,Partner,CAD,2024-12-01
+C0076,Demo company 076,United States,Paid search,USD,2024-12-01
+C0077,Demo company 077,Canada,Partner,CAD,2024-12-01
+C0078,Demo company 078,United States,Partner,USD,2024-12-01
+C0079,Demo company 079,Canada,Organic,CAD,2024-12-01
+C0080,Demo company 080,Canada,Paid search,CAD,2024-12-01
+C0081,Demo company 081,United States,Organic,USD,2024-12-01
+C0082,Demo company 082,Europe,Organic,USD,2024-12-01
+C0083,Demo company 083,Canada,Paid search,CAD,2024-12-01
+C0084,Demo company 084,Canada,Organic,CAD,2024-12-01
+C0085,Demo company 085,United States,Outbound,USD,2024-12-01
+C0086,Demo company 086,Canada,Paid search,CAD,2024-12-01
+C0087,Demo company 087,Canada,Organic,CAD,2024-12-01
+C0088,Demo company 088,Europe,Paid search,USD,2024-12-01
+C0089,Demo company 089,Canada,Organic,CAD,2024-12-01
+C0090,Demo company 090,Europe,Partner,USD,2024-12-01
+C0091,Demo company 091,Canada,Outbound,CAD,2024-12-01
+C0092,Demo company 092,United States,Organic,USD,2024-12-01
+C0093,Demo company 093,Canada,Paid search,CAD,2024-12-01
+C0094,Demo company 094,United States,Paid search,USD,2024-12-01
+C0095,Demo company 095,Europe,Paid search,USD,2024-12-01
+C0096,Demo company 096,Canada,Organic,CAD,2024-12-01
+C0097,Demo company 097,United States,Organic,USD,2024-12-01
+C0098,Demo company 098,Europe,Paid search,USD,2024-12-01
+C0099,Demo company 099,United States,Paid search,USD,2024-12-01
+C0100,Demo company 100,Canada,Paid search,CAD,2024-12-01
+C0101,Demo company 101,Canada,Organic,CAD,2024-12-01
+C0102,Demo company 102,United States,Organic,USD,2024-12-01
+C0103,Demo company 103,Canada,Paid search,CAD,2024-12-01
+C0104,Demo company 104,Canada,Paid search,CAD,2024-12-01
+C0105,Demo company 105,Canada,Organic,CAD,2024-12-01
+C0106,Demo company 106,Canada,Organic,CAD,2024-12-01
+C0107,Demo company 107,United States,Organic,USD,2024-12-01
+C0108,Demo company 108,United States,Partner,USD,2024-12-01
+C0109,Demo company 109,Canada,Paid search,CAD,2024-12-01
+C0110,Demo company 110,Canada,Organic,CAD,2024-12-01
+C0111,Demo company 111,Europe,Outbound,USD,2024-12-01
+C0112,Demo company 112,United States,Organic,USD,2024-12-01
+C0113,Demo company 113,Canada,Paid search,CAD,2024-12-01
+C0114,Demo company 114,United States,Partner,USD,2024-12-01
+C0115,Demo company 115,Canada,Partner,CAD,2024-12-01
+C0116,Demo company 116,Europe,Organic,USD,2024-12-01
+C0117,Demo company 117,Canada,Organic,CAD,2024-12-01
+C0118,Demo company 118,United States,Organic,USD,2024-12-01
+C0119,Demo company 119,Canada,Paid search,CAD,2024-12-01
+C0120,Demo company 120,United States,Paid search,USD,2024-12-01
+C0121,Demo company 121,United States,Organic,USD,2024-12-01
+C0122,Demo company 122,Canada,Paid search,CAD,2024-12-01
+C0123,Demo company 123,United States,Paid search,USD,2024-12-01
+C0124,Demo company 124,United States,Organic,USD,2024-12-01
+C0125,Demo company 125,Canada,Outbound,CAD,2024-12-01
+C0126,Demo company 126,Canada,Organic,CAD,2024-12-01
+C0127,Demo company 127,Europe,Partner,USD,2024-12-01
+C0128,Demo company 128,Europe,Paid search,USD,2024-12-01
+C0129,Demo company 129,Canada,Paid search,CAD,2024-12-01
+C0130,Demo company 130,Canada,Paid search,CAD,2024-12-01
+C0131,Demo company 131,Canada,Organic,CAD,2026-05-01
+C0132,Demo company 132,Canada,Paid search,CAD,2025-05-01
+C0133,Demo company 133,Canada,Partner,CAD,2026-02-01
+C0134,Demo company 134,Canada,Outbound,CAD,2025-08-01
+C0135,Demo company 135,Canada,Organic,CAD,2025-03-01
+C0136,Demo company 136,Canada,Paid search,CAD,2025-02-01
+C0137,Demo company 137,United States,Paid search,USD,2026-03-01
+C0138,Demo company 138,Europe,Organic,USD,2025-04-01
+C0139,Demo company 139,Europe,Organic,USD,2025-12-01
+C0140,Demo company 140,United States,Paid search,USD,2025-11-01
+C0141,Demo company 141,Canada,Organic,CAD,2025-01-01
+C0142,Demo company 142,Europe,Paid search,USD,2025-05-01
+C0143,Demo company 143,United States,Outbound,USD,2026-01-01
+C0144,Demo company 144,Canada,Partner,CAD,2025-09-01
+C0145,Demo company 145,United States,Outbound,USD,2026-06-01
+C0146,Demo company 146,Canada,Partner,CAD,2025-03-01
+C0147,Demo company 147,United States,Paid search,USD,2025-01-01
+C0148,Demo company 148,United States,Paid search,USD,2026-06-01
+C0149,Demo company 149,Canada,Outbound,CAD,2026-09-01
+C0150,Demo company 150,Canada,Paid search,CAD,2026-09-01
+C0151,Demo company 151,Canada,Partner,CAD,2025-12-01
+C0152,Demo company 152,Canada,Paid search,CAD,2026-07-01
+C0153,Demo company 153,Canada,Organic,CAD,2026-03-01
+C0154,Demo company 154,United States,Partner,USD,2026-05-01
+C0155,Demo company 155,United States,Organic,USD,2025-02-01
+C0156,Demo company 156,Canada,Organic,CAD,2026-01-01
+C0157,Demo company 157,Europe,Organic,USD,2025-09-01
+C0158,Demo company 158,Canada,Organic,CAD,2025-03-01
+C0159,Demo company 159,United States,Organic,USD,2025-07-01
+C0160,Demo company 160,Canada,Partner,CAD,2025-02-01
+C0161,Demo company 161,Canada,Organic,CAD,2025-08-01
+C0162,Demo company 162,United States,Partner,USD,2025-07-01
+C0163,Demo company 163,Canada,Partner,CAD,2025-03-01
+C0164,Demo company 164,Canada,Outbound,CAD,2026-07-01
+C0165,Demo company 165,United States,Organic,USD,2026-05-01
+C0166,Demo company 166,Canada,Organic,CAD,2026-09-01
+C0167,Demo company 167,United States,Partner,USD,2025-05-01
+C0168,Demo company 168,Canada,Paid search,CAD,2025-01-01
+C0169,Demo company 169,United States,Organic,USD,2025-06-01
+C0170,Demo company 170,Canada,Organic,CAD,2026-01-01
+C0171,Demo company 171,Canada,Paid search,CAD,2026-07-01
+C0172,Demo company 172,Europe,Organic,USD,2026-07-01
+C0173,Demo company 173,Canada,Organic,CAD,2025-10-01
+C0174,Demo company 174,Canada,Partner,CAD,2026-03-01
+C0175,Demo company 175,Canada,Organic,CAD,2026-01-01
+C0176,Demo company 176,Europe,Organic,USD,2026-06-01
+C0177,Demo company 177,Europe,Partner,USD,2025-07-01
+C0178,Demo company 178,Canada,Outbound,CAD,2025-08-01
+C0179,Demo company 179,Canada,Paid search,CAD,2025-06-01
+C0180,Demo company 180,United States,Paid search,USD,2025-07-01
+C0181,Demo company 181,United States,Outbound,USD,2026-07-01
+C0182,Demo company 182,Canada,Organic,CAD,2026-09-01
+C0183,Demo company 183,Canada,Partner,CAD,2025-11-01
+C0184,Demo company 184,Canada,Paid search,CAD,2025-04-01
+C0185,Demo company 185,Canada,Paid search,CAD,2025-01-01
+C0186,Demo company 186,Canada,Organic,CAD,2025-07-01
+C0187,Demo company 187,Canada,Outbound,CAD,2025-07-01
+C0188,Demo company 188,Europe,Paid search,USD,2025-10-01
+C0189,Demo company 189,Canada,Paid search,CAD,2025-02-01
+C0190,Demo company 190,Canada,Outbound,CAD,2026-02-01
+C0191,Demo company 191,United States,Organic,USD,2025-01-01
+C0192,Demo company 192,United States,Paid search,USD,2026-08-01
+C0193,Demo company 193,Canada,Organic,CAD,2025-10-01
+C0194,Demo company 194,Europe,Organic,USD,2025-06-01
+C0195,Demo company 195,United States,Paid search,USD,2025-01-01
+C0196,Demo company 196,United States,Paid search,USD,2026-07-01
+C0197,Demo company 197,Canada,Organic,CAD,2025-02-01
+C0198,Demo company 198,Canada,Organic,CAD,2025-12-01
+C0199,Demo company 199,United States,Organic,USD,2026-06-01
+C0200,Demo company 200,Canada,Organic,CAD,2026-06-01
+C0201,Demo company 201,Canada,Paid search,CAD,2025-07-01
+C0202,Demo company 202,United States,Paid search,USD,2026-09-01
+C0203,Demo company 203,Canada,Outbound,CAD,2026-08-01
+C0204,Demo company 204,United States,Organic,USD,2026-01-01
+C0205,Demo company 205,Canada,Organic,CAD,2025-11-01
+C0206,Demo company 206,United States,Organic,USD,2025-12-01
+C0207,Demo company 207,United States,Partner,USD,2026-05-01
+C0208,Demo company 208,Canada,Organic,CAD,2026-06-01
+C0209,Demo company 209,Canada,Outbound,CAD,2026-08-01
+C0210,Demo company 210,Canada,Paid search,CAD,2025-12-01
+C0211,Demo company 211,Canada,Partner,CAD,2025-06-01
+C0212,Demo company 212,Canada,Organic,CAD,2025-05-01
+C0213,Demo company 213,Canada,Organic,CAD,2026-01-01
+C0214,Demo company 214,Canada,Organic,CAD,2026-07-01
+C0215,Demo company 215,United States,Outbound,USD,2026-04-01
+C0216,Demo company 216,Canada,Paid search,CAD,2026-03-01
+C0217,Demo company 217,Canada,Partner,CAD,2025-02-01
+C0218,Demo company 218,United States,Paid search,USD,2026-04-01
+C0219,Demo company 219,Canada,Paid search,CAD,2026-02-01
+C0220,Demo company 220,Canada,Organic,CAD,2025-03-01
+C0221,Demo company 221,United States,Organic,USD,2025-08-01
+C0222,Demo company 222,Europe,Organic,USD,2026-04-01
+C0223,Demo company 223,Canada,Partner,CAD,2025-02-01
+C0224,Demo company 224,Canada,Outbound,CAD,2026-05-01
+C0225,Demo company 225,United States,Partner,USD,2026-07-01
+C0226,Demo company 226,Canada,Organic,CAD,2025-03-01
+C0227,Demo company 227,Europe,Partner,USD,2025-01-01
+C0228,Demo company 228,Canada,Partner,CAD,2026-09-01
+C0229,Demo company 229,Canada,Organic,CAD,2026-02-01
+C0230,Demo company 230,United States,Paid search,USD,2025-04-01
+C0231,Demo company 231,Canada,Partner,CAD,2025-07-01
+C0232,Demo company 232,Canada,Partner,CAD,2026-09-01
+C0233,Demo company 233,Canada,Organic,CAD,2025-12-01
+C0234,Demo company 234,United States,Paid search,USD,2025-04-01
+C0235,Demo company 235,Canada,Paid search,CAD,2026-05-01
+C0236,Demo company 236,Canada,Outbound,CAD,2025-10-01
+C0237,Demo company 237,United States,Paid search,USD,2025-02-01
+C0238,Demo company 238,United States,Outbound,USD,2025-03-01
+C0239,Demo company 239,Canada,Organic,CAD,2025-03-01
+C0240,Demo company 240,Canada,Paid search,CAD,2025-03-01
+C0241,Demo company 241,United States,Organic,USD,2025-12-01
+C0242,Demo company 242,United States,Paid search,USD,2025-11-01
+C0243,Demo company 243,Canada,Outbound,CAD,2025-07-01
+C0244,Demo company 244,United States,Organic,USD,2025-07-01
+C0245,Demo company 245,Canada,Partner,CAD,2025-09-01
+C0246,Demo company 246,Canada,Paid search,CAD,2026-04-01
+C0247,Demo company 247,United States,Paid search,USD,2025-09-01
+C0248,Demo company 248,Canada,Paid search,CAD,2026-06-01
+C0249,Demo company 249,Canada,Organic,CAD,2025-05-01
+C0250,Demo company 250,United States,Partner,USD,2026-06-01
+C0251,Demo company 251,United States,Paid search,USD,2025-12-01
+C0252,Demo company 252,Canada,Paid search,CAD,2025-10-01
+C0253,Demo company 253,United States,Outbound,USD,2025-09-01
+C0254,Demo company 254,Europe,Paid search,USD,2026-09-01
+C0255,Demo company 255,United States,Partner,USD,2026-07-01
+C0256,Demo company 256,Canada,Partner,CAD,2025-06-01
+C0257,Demo company 257,Canada,Paid search,CAD,2025-03-01
+C0258,Demo company 258,Canada,Outbound,CAD,2026-03-01
+C0259,Demo company 259,Europe,Partner,USD,2025-11-01
+C0260,Demo company 260,Canada,Paid search,CAD,2026-09-01
+C0261,Demo company 261,Canada,Outbound,CAD,2025-08-01
+C0262,Demo company 262,United States,Organic,USD,2025-06-01
+C0263,Demo company 263,Canada,Paid search,CAD,2026-08-01
+C0264,Demo company 264,United States,Partner,USD,2026-07-01
+C0265,Demo company 265,Canada,Paid search,CAD,2026-06-01
+C0266,Demo company 266,Canada,Organic,CAD,2025-05-01
+C0267,Demo company 267,Canada,Organic,CAD,2025-01-01
+C0268,Demo company 268,Canada,Paid search,CAD,2025-09-01
+C0269,Demo company 269,United States,Paid search,USD,2025-01-01
+C0270,Demo company 270,United States,Organic,USD,2025-07-01
+C0271,Demo company 271,Canada,Organic,CAD,2025-08-01
+C0272,Demo company 272,United States,Partner,USD,2025-08-01
+C0273,Demo company 273,United States,Organic,USD,2025-10-01
+C0274,Demo company 274,Canada,Partner,CAD,2026-07-01
+C0275,Demo company 275,Canada,Organic,CAD,2025-01-01
+C0276,Demo company 276,Canada,Paid search,CAD,2026-09-01
+C0277,Demo company 277,Canada,Organic,CAD,2025-03-01
+C0278,Demo company 278,Canada,Paid search,CAD,2025-10-01
+C0279,Demo company 279,Canada,Organic,CAD,2025-09-01
+C0280,Demo company 280,United States,Partner,USD,2025-06-01
+C0281,Demo company 281,Canada,Organic,CAD,2025-01-01
+C0282,Demo company 282,Canada,Organic,CAD,2025-06-01
+C0283,Demo company 283,United States,Organic,USD,2025-04-01
+C0284,Demo company 284,Canada,Organic,CAD,2025-11-01
+C0285,Demo company 285,Europe,Organic,USD,2025-06-01
+C0286,Demo company 286,United States,Paid search,USD,2026-04-01
+C0287,Demo company 287,Canada,Partner,CAD,2025-03-01
+C0288,Demo company 288,Europe,Paid search,USD,2025-02-01
+C0289,Demo company 289,Canada,Partner,CAD,2025-12-01
+C0290,Demo company 290,Canada,Partner,CAD,2026-09-01
+C0291,Demo company 291,Canada,Organic,CAD,2025-09-01
+C0292,Demo company 292,Canada,Partner,CAD,2025-09-01
+C0293,Demo company 293,Canada,Paid search,CAD,2026-08-01
+C0294,Demo company 294,Canada,Paid search,CAD,2025-12-01
+C0295,Demo company 295,Canada,Organic,CAD,2025-03-01
+C0296,Demo company 296,Canada,Paid search,CAD,2026-06-01
+C0297,Demo company 297,Canada,Outbound,CAD,2026-03-01
+C0298,Demo company 298,Canada,Paid search,CAD,2026-09-01
+C0299,Demo company 299,Europe,Partner,USD,2025-10-01
+C0300,Demo company 300,Canada,Partner,CAD,2025-04-01
+C0301,Demo company 301,United States,Paid search,USD,2026-08-01
+C0302,Demo company 302,Canada,Organic,CAD,2025-02-01
+C0303,Demo company 303,United States,Organic,USD,2025-02-01
+C0304,Demo company 304,United States,Organic,USD,2025-05-01
+C0305,Demo company 305,United States,Paid search,USD,2025-05-01
+C0306,Demo company 306,United States,Paid search,USD,2025-10-01
+C0307,Demo company 307,Canada,Organic,CAD,2025-03-01
+C0308,Demo company 308,United States,Organic,USD,2025-04-01
+C0309,Demo company 309,Canada,Paid search,CAD,2025-05-01
+C0310,Demo company 310,United States,Organic,USD,2025-02-01
+C0311,Demo company 311,Canada,Paid search,CAD,2026-03-01
+C0312,Demo company 312,United States,Partner,USD,2025-08-01
+C0313,Demo company 313,Canada,Partner,CAD,2026-03-01
+C0314,Demo company 314,United States,Organic,USD,2025-06-01
+C0315,Demo company 315,United States,Partner,USD,2026-01-01
+C0316,Demo company 316,Canada,Partner,CAD,2026-09-01
+C0317,Demo company 317,United States,Paid search,USD,2025-05-01
+C0318,Demo company 318,United States,Partner,USD,2025-10-01
+C0319,Demo company 319,Canada,Organic,CAD,2026-04-01
+C0320,Demo company 320,Canada,Organic,CAD,2026-04-01
+C0321,Demo company 321,United States,Partner,USD,2025-06-01
+C0322,Demo company 322,United States,Organic,USD,2025-12-01
+C0323,Demo company 323,United States,Paid search,USD,2025-04-01
+C0324,Demo company 324,Europe,Organic,USD,2025-10-01
+C0325,Demo company 325,Europe,Organic,USD,2026-09-01
+C0326,Demo company 326,United States,Partner,USD,2026-02-01
+C0327,Demo company 327,United States,Organic,USD,2025-02-01
+C0328,Demo company 328,Canada,Organic,CAD,2025-04-01
+C0329,Demo company 329,Canada,Paid search,CAD,2026-07-01
+C0330,Demo company 330,Canada,Organic,CAD,2025-01-01
+C0331,Demo company 331,Canada,Organic,CAD,2025-09-01
+C0332,Demo company 332,Europe,Partner,USD,2025-01-01
+C0333,Demo company 333,Canada,Organic,CAD,2025-07-01
+C0334,Demo company 334,Canada,Organic,CAD,2025-06-01
+C0335,Demo company 335,United States,Paid search,USD,2026-02-01
+C0336,Demo company 336,Canada,Organic,CAD,2026-05-01
+C0337,Demo company 337,United States,Paid search,USD,2025-07-01
+C0338,Demo company 338,Canada,Organic,CAD,2026-09-01
+C0339,Demo company 339,United States,Organic,USD,2026-07-01
+C0340,Demo company 340,United States,Partner,USD,2026-08-01
+C0341,Demo company 341,United States,Organic,USD,2025-04-01
+C0342,Demo company 342,United States,Paid search,USD,2025-05-01
+C0343,Demo company 343,Canada,Paid search,CAD,2026-05-01
+C0344,Demo company 344,United States,Paid search,USD,2026-08-01
+C0345,Demo company 345,Canada,Outbound,CAD,2025-01-01
+C0346,Demo company 346,United States,Organic,USD,2025-11-01
+C0347,Demo company 347,United States,Partner,USD,2025-09-01
+C0348,Demo company 348,Canada,Outbound,CAD,2026-01-01
+C0349,Demo company 349,Canada,Partner,CAD,2026-04-01
+C0350,Demo company 350,Canada,Partner,CAD,2025-03-01
+C0351,Demo company 351,Canada,Organic,CAD,2025-01-01
+C0352,Demo company 352,Canada,Organic,CAD,2026-09-01
+C0353,Demo company 353,Canada,Organic,CAD,2025-11-01
+C0354,Demo company 354,Europe,Paid search,USD,2025-12-01
+C0355,Demo company 355,United States,Paid search,USD,2026-06-01
+C0356,Demo company 356,Canada,Partner,CAD,2026-02-01
+C0357,Demo company 357,Canada,Paid search,CAD,2026-07-01
+C0358,Demo company 358,Canada,Organic,CAD,2025-12-01
+C0359,Demo company 359,Canada,Paid search,CAD,2025-05-01
+C0360,Demo company 360,Canada,Organic,CAD,2026-09-01
