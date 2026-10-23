@@ -1,0 +1,106 @@
+{
+  "selected_threshold": 0.15,
+  "assumptions": {
+    "review_cost": 7.0,
+    "false_positive_cost": 18.0,
+    "recovery_rate": 0.85,
+    "daily_review_capacity": 45
+  },
+  "validation": {
+    "threshold": 0.15,
+    "daily_capacity": 45,
+    "transactions": 10200,
+    "reviews": 6,
+    "true_positive": 4,
+    "false_positive": 2,
+    "missed_fraud": 56,
+    "precision": 0.666667,
+    "recall": 0.066667,
+    "captured_fraud_amount": 3178.92,
+    "missed_fraud_amount": 7175.21,
+    "review_cost": 42.0,
+    "friction_cost": 36.0,
+    "avoided_loss": 2702.08,
+    "net_value": 2624.08
+  },
+  "test": {
+    "threshold": 0.15,
+    "daily_capacity": 45,
+    "transactions": 10800,
+    "reviews": 9,
+    "true_positive": 4,
+    "false_positive": 5,
+    "missed_fraud": 67,
+    "precision": 0.444444,
+    "recall": 0.056338,
+    "captured_fraud_amount": 4233.59,
+    "missed_fraud_amount": 7395.33,
+    "review_cost": 63.0,
+    "friction_cost": 90.0,
+    "avoided_loss": 3598.55,
+    "net_value": 3445.55
+  },
+  "amount_baseline_test": {
+    "threshold": 0.5,
+    "daily_capacity": 45,
+    "transactions": 10800,
+    "reviews": 537,
+    "true_positive": 16,
+    "false_positive": 521,
+    "missed_fraud": 55,
+    "precision": 0.029795,
+    "recall": 0.225352,
+    "captured_fraud_amount": 9153.11,
+    "missed_fraud_amount": 2475.81,
+    "review_cost": 3759.0,
+    "friction_cost": 9378.0,
+    "avoided_loss": 7780.14,
+    "net_value": -5356.86
+  },
+  "score_quality": {
+    "validation": {
+      "average_precision": 0.095064,
+      "roc_auc": 0.786764,
+      "brier_score": 0.005492,
+      "fraud_rate": 0.005882
+    },
+    "test": {
+      "average_precision": 0.098814,
+      "roc_auc": 0.757928,
+      "brier_score": 0.00624,
+      "fraud_rate": 0.006574
+    }
+  },
+  "split_summary": [
+    {
+      "split": "calibration",
+      "rows": 9000,
+      "start": "2026-02-14T21:53:00.000",
+      "end": "2026-02-28T05:41:00.000",
+      "fraud_rate": 0.0064444444
+    },
+    {
+      "split": "test",
+      "rows": 10800,
+      "start": "2026-03-15T16:03:00.000",
+      "end": "2026-03-31T23:55:00.000",
+      "fraud_rate": 0.0065740741
+    },
+    {
+      "split": "train_fit",
+      "rows": 30000,
+      "start": "2026-01-01T00:00:00.000",
+      "end": "2026-02-14T21:51:00.000",
+      "fraud_rate": 0.0058
+    },
+    {
+      "split": "validation",
+      "rows": 10200,
+      "start": "2026-02-28T05:43:00.000",
+      "end": "2026-03-15T15:59:00.000",
+      "fraud_rate": 0.0058823529
+    }
+  ],
+  "model": "Logistic regression followed by isotonic calibration",
+  "feature_count": 10
+}

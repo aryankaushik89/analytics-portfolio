@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fraud Decision Desk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">Portfolio project 03</p>
+      <h1>Fraud Decision Desk</h1>
+      <p class="intro">I built this view to test a practical question: which transactions should enter a limited review queue, and what changes when the cutoff or capacity changes?</p>
+    </div>
+    <div class="scope-note">Synthetic transactions · retrospective test period</div>
+  </header>
+
+  <main>
+    <section class="panel controls" aria-labelledby="controls-title">
+      <div class="section-heading">
+        <div>
+          <p class="step">1 · Set the queue</p>
+          <h2 id="controls-title">Decision controls</h2>
+        </div>
+        <button id="reset-button" class="quiet-button" type="button">Reset</button>
+      </div>
+      <div class="control-grid">
+        <label>Minimum fraud score
+          <input id="threshold" type="range" min="0" max="0.8" step="0.01">
+          <span id="threshold-value" class="control-value"></span>
+        </label>
+        <label>Daily review capacity
+          <input id="capacity" type="range" min="0" max="120" step="5">
+          <span id="capacity-value" class="control-value"></span>
+        </label>
+        <label>Test date
+          <select id="date-filter"></select>
+          <span class="helper">The queue is ranked separately each day.</span>
+        </label>
+      </div>
+    </section>
+
+    <section aria-labelledby="summary-title">
+      <div class="section-heading">
+        <div>
+          <p class="step">2 · Read the trade-off</p>
+          <h2 id="summary-title">Test-period result</h2>
+        </div>
+        <p id="result-note" class="muted"></p>
+      </div>
+      <div class="kpi-grid">
+        <article class="kpi"><span>Reviews</span><strong id="reviews"></strong><small id="review-share"></small></article>
+        <article class="kpi"><span>Precision</span><strong id="precision"></strong><small>fraud among reviews</small></article>
+        <article class="kpi"><span>Recall</span><strong id="recall"></strong><small>fraud found</small></article>
+        <article class="kpi"><span>Scenario net value</span><strong id="net-value"></strong><small>assumptions, not realized savings</small></article>
+      </div>
+    </section>
+
+    <section class="analysis-grid">
+      <article class="panel" aria-labelledby="matrix-title">
+        <p class="step">3 · Check the mistakes</p>
+        <h2 id="matrix-title">Decision counts</h2>
+        <div class="matrix" id="matrix"></div>
+        <p class="footnote">“Reviewed” means the score passed the cutoff and the transaction fit inside that day’s capacity.</p>
+      </article>
+      <article class="panel" aria-labelledby="cost-title">
+        <p class="step">4 · Check the assumptions</p>
+        <h2 id="cost-title">Cost view</h2>
+        <div id="cost-bars" class="bars"></div>
+        <p class="footnote">Uses 85% recovery on reviewed fraud, $7 per review and $18 of assumed customer-friction cost per false positive.</p>
+      </article>
+    </section>
+
+    <section class="panel" aria-labelledby="queue-title">
+      <div class="section-heading">
+        <div>
+          <p class="step">5 · Inspect the records</p>
+          <h2 id="queue-title">Review queue</h2>
+        </div>
+        <button id="export-button" class="quiet-button" type="button">Export current queue</button>
+      </div>
+      <div id="empty-state" class="empty" hidden>No transactions meet the current queue settings.</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Transaction</th><th>Date</th><th>Amount</th><th>Score</th><th>Velocity</th><th>Outcome</th><th></th></tr></thead>
+          <tbody id="queue-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="method-note">
+      <h2>What this does and does not show</h2>
+      <p>The score comes from a logistic model fitted on an earlier period, followed by calibration on a later slice. I selected the initial threshold on validation data and kept this test period untouched until the final check. The records, outcomes and costs are authored for this demonstration. This is not a live payment system.</p>
+    </section>
+  </main>
+
+  <dialog id="detail-dialog">
+    <form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form>
+    <p class="step">Transaction detail</p>
+    <h2 id="detail-title"></h2>
+    <dl id="detail-list"></dl>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

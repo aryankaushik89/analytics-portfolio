@@ -1,0 +1,141 @@
+{
+  "created_at": "2026-10-23T10:13:14.958259+00:00",
+  "project": "Fraud Decision Desk",
+  "data_scope": "60,000 authored synthetic transactions; no real account, card, merchant or employer data",
+  "checks": {
+    "python_tests": 11,
+    "python_tests_status": "passed",
+    "javascript_syntax": "passed",
+    "notebook_code_cells": 8,
+    "notebook_errors": 0,
+    "matching_script_completed": true,
+    "desktop_browser_qa": "passed",
+    "dashboard_default_metrics": "matched outputs/model_metrics.json",
+    "dashboard_controls": [
+      "threshold",
+      "daily capacity",
+      "date filter",
+      "reset",
+      "transaction detail",
+      "CSV export",
+      "zero-capacity empty state"
+    ],
+    "mobile_device_qa": "not performed"
+  },
+  "limits": [
+    "Synthetic retrospective scenario, not a live fraud system",
+    "Review cost, customer friction and recovery rate are assumptions",
+    "No label delay, identity features or network relationships",
+    "Responsive rules reviewed but no separate narrow browser or mobile hardware check"
+  ],
+  "files": {
+    ".gitignore": {
+      "sha256": "969ee24ad2ad1a5bfb577c75f5514c07e34b89f0ba81c80dcadd8a342944c06c",
+      "size_bytes": 58
+    },
+    "AGENTS.md": {
+      "sha256": "9c52084f857479db76bcb1ee004d0e8fe6df26b5ff793297e0974e912f5d0c0b",
+      "size_bytes": 798
+    },
+    "LICENSE": {
+      "sha256": "5bcdc1f5b5183cc071b744fb66604abd9d55b06594c96a29de41ed2839c60721",
+      "size_bytes": 1070
+    },
+    "README.md": {
+      "sha256": "20399ff08b731d34cbaa2d2940ce80e36c44873b4e4770a6b4dcd784119c6a67",
+      "size_bytes": 3975
+    },
+    "data/README.md": {
+      "sha256": "b8d07179171b7f93aa52414d74d049f48d29280c5c65fc1f8463eda7e8e0b3c8",
+      "size_bytes": 549
+    },
+    "data/synthetic_transactions.csv.gz": {
+      "sha256": "3f1d19ffbcf9d1e188a08f4e9f7960f3330c48180d9bb0dd2c6145201492d665",
+      "size_bytes": 1262764
+    },
+    "dist/app.js": {
+      "sha256": "462d2843aee02592fd34c3531222194af587962ad710a6941de171c613c6ee87",
+      "size_bytes": 7448
+    },
+    "dist/data.js": {
+      "sha256": "e68b9c5c8cbfc18ad9e76bc08deec42f7f29cfbe37cb8b21dff2b826f10bfeaf",
+      "size_bytes": 2736505
+    },
+    "dist/index.html": {
+      "sha256": "8319fd3d86b083a82a19565eea86d0d2a5acdbf4b22d0721ca6703d9b8cf4679",
+      "size_bytes": 4741
+    },
+    "dist/styles.css": {
+      "sha256": "f9dc7fb1aca549fd4c056dd025c9f226d259fcc64da44053f438e2b907185847",
+      "size_bytes": 4955
+    },
+    "docs/data_dictionary.md": {
+      "sha256": "4e3b62c4abf3b44bfbfccc50182b774ca062930135edd7cecf81d9a8784a8b1c",
+      "size_bytes": 1210
+    },
+    "docs/findings.md": {
+      "sha256": "4dec1b58874cb78a6ed2629679c06d8670ca01a03ff3500e5189d4b2546965ef",
+      "size_bytes": 1856
+    },
+    "docs/implementation_journal.md": {
+      "sha256": "a037c9be547e206f47bf1573c598683dc4471cd60e559d968642645954ca2945",
+      "size_bytes": 2080
+    },
+    "docs/metric_definitions.md": {
+      "sha256": "0db1dbecdee492e1ffbff45e8625bae635464fe57e06ab5ff1b0a9749cf293f9",
+      "size_bytes": 1413
+    },
+    "docs/walkthrough.md": {
+      "sha256": "eabc85d56268cb27989ae742d3aa3f5f8854c79c6855d7aef03b25562ceadd9a",
+      "size_bytes": 3444
+    },
+    "notebooks/fraud_decision_desk.ipynb": {
+      "sha256": "e27651dd9550e998bb862466d1bcf088978e76337c9c00264bcfbad4b9644c30",
+      "size_bytes": 72071
+    },
+    "outputs/calibration_test.csv": {
+      "sha256": "b79ad670565713b2dd65ad0264325854eea85c78dc36c10de254249bea50f95b",
+      "size_bytes": 487
+    },
+    "outputs/daily_monitoring_test.csv": {
+      "sha256": "1c406c9ba3ef574ede9e071cfa398f1421d6b7459b2404a6e01338c3a18f73a7",
+      "size_bytes": 895
+    },
+    "outputs/model_metrics.json": {
+      "sha256": "edde99e45ab3788eb989f61c02638d951a95942102460df612232f9a401671e5",
+      "size_bytes": 2582
+    },
+    "outputs/threshold_validation.csv": {
+      "sha256": "1ba90e06a2ebae5629a93fe20a1d28eeed82ac7042732973d6a52e40861047f9",
+      "size_bytes": 7189
+    },
+    "requirements.txt": {
+      "sha256": "01814dd285c9961d875bc923268caaaa263d66699553436bb7f39cdf27afc509",
+      "size_bytes": 94
+    },
+    "scripts/build_release_manifest.py": {
+      "sha256": "3fa361646638344f3a7674a3a8f72023778bfda8d8e15a5b3d638b94920adbc9",
+      "size_bytes": 2780
+    },
+    "scripts/execute_notebook.py": {
+      "sha256": "6b9522289cefef3065f50ea993b11e361ba9d8ad2cbd868b59bf30a5652388ca",
+      "size_bytes": 2274
+    },
+    "sql/review_queue.sql": {
+      "sha256": "719dcc3a78c8d581d5ec3db8125c0fe4f635beda38a217c6659f64012db5bab9",
+      "size_bytes": 644
+    },
+    "src/analyze_fraud.py": {
+      "sha256": "7aadde6547a8ea45c4ae5a0cf49e900734551c7e90040678596f44df99b41e5f",
+      "size_bytes": 9493
+    },
+    "src/generate_data.py": {
+      "sha256": "cc1749a8b3d8f44611468ae9c12508d298c51ec2549edfe7b5d227bd56c82123",
+      "size_bytes": 2856
+    },
+    "tests/test_analysis.py": {
+      "sha256": "752edf087dab82831ae99680839bb5f62fcdd750ebda5c6997ae73238deb5891",
+      "size_bytes": 3475
+    }
+  }
+}
