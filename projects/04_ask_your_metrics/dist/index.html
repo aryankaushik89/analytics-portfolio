@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ask Your Metrics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">Portfolio project 04</p>
+      <h1>Ask Your Metrics</h1>
+      <p class="intro">A small governed question interface. It only answers from an approved metric dictionary, shows the SQL that ran and stops when the request is unclear.</p>
+    </div>
+    <div class="mode-note"><strong>Offline checked replay</strong><span>No live model or production database</span></div>
+  </header>
+
+  <main>
+    <section class="panel ask-panel" aria-labelledby="ask-title">
+      <div class="section-heading">
+        <div><p class="step">1 · Ask</p><h2 id="ask-title">Business question</h2></div>
+        <span class="score" id="scorecard"></span>
+      </div>
+      <form id="question-form">
+        <label for="question">Question</label>
+        <div class="ask-row">
+          <input id="question" type="text" autocomplete="off" value="What was MRR in June 2026?">
+          <button type="submit">Run approved metric</button>
+        </div>
+      </form>
+      <div class="examples" id="examples" aria-label="Example questions"></div>
+    </section>
+
+    <section id="answer-panel" class="answer-layout" aria-live="polite">
+      <article class="panel result-panel">
+        <p class="step">2 · Answer</p>
+        <div class="answer-heading"><h2 id="status-title">Checked result</h2><span id="status-badge" class="badge"></span></div>
+        <p id="answer" class="answer"></p>
+        <p id="interpretation" class="muted"></p>
+        <div id="result-table" class="table-wrap"></div>
+        <button id="export-button" class="quiet-button" type="button">Export result</button>
+      </article>
+
+      <article class="panel query-panel">
+        <div class="section-heading">
+          <div><p class="step">3 · Inspect</p><h2>Approved query</h2></div>
+          <button id="copy-button" class="quiet-button" type="button">Copy SQL</button>
+        </div>
+        <pre id="sql"></pre>
+        <div class="parameters"><span>Parameters</span><code id="parameters"></code></div>
+        <div class="definition"><span>Metric definition</span><p id="definition"></p></div>
+      </article>
+    </section>
+
+    <section class="panel guardrails" aria-labelledby="guardrails-title">
+      <div><p class="step">4 · Verify</p><h2 id="guardrails-title">What is constrained</h2></div>
+      <div class="guardrail-grid">
+        <article><strong>Approved metrics</strong><p>MRR, active customers, customer churn, NRR, segment MRR and invoice collection rate.</p></article>
+        <article><strong>Read-only execution</strong><p>Only registered SELECT templates, bound parameters, approved tables and a 200-row result limit.</p></article>
+        <article><strong>Honest fallback</strong><p>Ambiguous requests ask for a metric and period. Unsupported requests do not get guessed SQL.</p></article>
+      </div>
+    </section>
+
+    <section class="method-note">
+      <h2>How to read this demo</h2>
+      <p>The Python version runs these questions against a read-only SQLite database. This browser version replays the same checked answers so it can be hosted as a static page. It is deliberately not described as a live LLM integration.</p>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

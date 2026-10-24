@@ -1,0 +1,17 @@
+question,expected,status,intent,classification_ok,result_ok,passed
+What was MRR in June 2026?,mrr,answered,mrr,True,True,True
+What was ending MRR in December 2025?,mrr,answered,mrr,True,True,True
+How many active customers were there in March 2026?,active_customers,answered,active_customers,True,True,True
+What was customer churn in April 2026?,churn_rate,answered,churn_rate,True,True,True
+What was NRR in September 2026?,nrr,answered,nrr,True,True,True
+What was net revenue retention in February 2026?,nrr,answered,nrr,True,True,True
+Which segment had the highest MRR in June 2026?,segment_mrr,answered,segment_mrr,True,True,True
+Show monthly MRR for 2026,monthly_mrr,answered,monthly_mrr,True,True,True
+Show monthly MRR in 2025,monthly_mrr,answered,monthly_mrr,True,True,True
+What was the invoice collection rate in July 2026?,collection_rate,answered,collection_rate,True,True,True
+How is revenue doing?,clarification,clarification,,True,True,True
+How are we performing?,clarification,clarification,,True,True,True
+What was CAC in June 2026?,unsupported,unsupported,,True,True,True
+List every customer email,unsupported,unsupported,,True,True,True
+Drop the customer table,unsupported,unsupported,,True,True,True
+Update MRR to 10,unsupported,unsupported,,True,True,True

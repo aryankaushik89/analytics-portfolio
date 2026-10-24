@@ -1,0 +1,241 @@
+customer_id,segment,region,signup_month
+C-0001,SMB,Canada,2025-08-01
+C-0002,Mid-market,Canada,2026-02-01
+C-0003,Mid-market,United Kingdom,2025-10-01
+C-0004,SMB,Canada,2025-05-01
+C-0005,SMB,Canada,2025-02-01
+C-0006,Enterprise,United States,2025-04-01
+C-0007,Mid-market,United States,2025-08-01
+C-0008,Mid-market,Canada,2025-06-01
+C-0009,SMB,Canada,2025-02-01
+C-0010,SMB,Canada,2025-09-01
+C-0011,SMB,Canada,2025-11-01
+C-0012,Enterprise,Canada,2025-01-01
+C-0013,Enterprise,Canada,2025-03-01
+C-0014,SMB,Canada,2025-08-01
+C-0015,Enterprise,Canada,2026-01-01
+C-0016,SMB,United States,2025-07-01
+C-0017,Mid-market,Canada,2026-02-01
+C-0018,SMB,United States,2025-06-01
+C-0019,SMB,Canada,2025-06-01
+C-0020,SMB,Canada,2026-02-01
+C-0021,Mid-market,Canada,2025-07-01
+C-0022,SMB,Canada,2026-02-01
+C-0023,SMB,Canada,2025-03-01
+C-0024,SMB,Canada,2025-04-01
+C-0025,SMB,United Kingdom,2025-04-01
+C-0026,SMB,United States,2025-03-01
+C-0027,SMB,Canada,2025-06-01
+C-0028,Enterprise,United Kingdom,2025-07-01
+C-0029,SMB,United States,2025-03-01
+C-0030,Mid-market,Canada,2025-06-01
+C-0031,SMB,United States,2025-08-01
+C-0032,SMB,United States,2025-07-01
+C-0033,SMB,Canada,2025-01-01
+C-0034,SMB,United States,2026-03-01
+C-0035,SMB,Canada,2025-05-01
+C-0036,Enterprise,Canada,2025-08-01
+C-0037,Mid-market,United States,2025-01-01
+C-0038,SMB,Canada,2025-09-01
+C-0039,Mid-market,United Kingdom,2025-08-01
+C-0040,Mid-market,United Kingdom,2026-03-01
+C-0041,SMB,Canada,2025-04-01
+C-0042,Enterprise,Canada,2025-08-01
+C-0043,SMB,United States,2025-01-01
+C-0044,SMB,United States,2025-08-01
+C-0045,SMB,Canada,2026-03-01
+C-0046,SMB,Canada,2025-02-01
+C-0047,Enterprise,United States,2025-09-01
+C-0048,SMB,Canada,2026-02-01
+C-0049,SMB,Canada,2025-04-01
+C-0050,Enterprise,United States,2025-07-01
+C-0051,Enterprise,Canada,2025-07-01
+C-0052,SMB,Canada,2025-02-01
+C-0053,SMB,Canada,2025-01-01
+C-0054,SMB,United Kingdom,2025-10-01
+C-0055,SMB,Canada,2025-07-01
+C-0056,Mid-market,Canada,2025-12-01
+C-0057,SMB,Canada,2025-02-01
+C-0058,Mid-market,United States,2025-01-01
+C-0059,SMB,Canada,2026-03-01
+C-0060,Mid-market,Canada,2025-08-01
+C-0061,Mid-market,United States,2025-01-01
+C-0062,SMB,United States,2025-08-01
+C-0063,Mid-market,Canada,2025-05-01
+C-0064,SMB,Canada,2025-01-01
+C-0065,Enterprise,Canada,2025-09-01
+C-0066,Mid-market,United Kingdom,2026-01-01
+C-0067,SMB,United Kingdom,2025-05-01
+C-0068,SMB,Canada,2025-02-01
+C-0069,SMB,United States,2025-03-01
+C-0070,Mid-market,United States,2025-12-01
+C-0071,Enterprise,United States,2025-03-01
+C-0072,SMB,Canada,2025-09-01
+C-0073,Mid-market,Canada,2026-03-01
+C-0074,SMB,Canada,2025-04-01
+C-0075,SMB,Canada,2025-05-01
+C-0076,SMB,Canada,2025-05-01
+C-0077,SMB,United States,2025-06-01
+C-0078,SMB,United Kingdom,2025-06-01
+C-0079,SMB,Canada,2025-06-01
+C-0080,SMB,United States,2026-01-01
+C-0081,Mid-market,United Kingdom,2025-11-01
+C-0082,SMB,Canada,2025-05-01
+C-0083,SMB,Canada,2025-11-01
+C-0084,SMB,United Kingdom,2026-01-01
+C-0085,SMB,Canada,2026-01-01
+C-0086,SMB,Canada,2025-03-01
+C-0087,SMB,United Kingdom,2026-01-01
+C-0088,Enterprise,Canada,2025-08-01
+C-0089,SMB,Canada,2025-04-01
+C-0090,SMB,Canada,2026-01-01
+C-0091,SMB,Canada,2025-09-01
+C-0092,Mid-market,Canada,2025-01-01
+C-0093,SMB,United States,2025-01-01
+C-0094,Mid-market,United Kingdom,2026-01-01
+C-0095,Mid-market,United States,2026-01-01
+C-0096,Mid-market,Canada,2025-05-01
+C-0097,SMB,United States,2025-01-01
+C-0098,Enterprise,Canada,2025-04-01
+C-0099,Mid-market,United States,2026-02-01
+C-0100,Mid-market,Canada,2026-01-01
+C-0101,Mid-market,Canada,2026-02-01
+C-0102,Mid-market,Canada,2025-03-01
+C-0103,SMB,Canada,2025-05-01
+C-0104,Mid-market,Canada,2025-11-01
+C-0105,SMB,United States,2025-04-01
+C-0106,SMB,Canada,2025-12-01
+C-0107,Mid-market,United Kingdom,2025-10-01
+C-0108,SMB,United States,2025-08-01
+C-0109,SMB,Canada,2025-08-01
+C-0110,SMB,United States,2025-03-01
+C-0111,Enterprise,Canada,2025-11-01
+C-0112,Mid-market,United Kingdom,2026-01-01
+C-0113,Mid-market,United States,2025-12-01
+C-0114,SMB,Canada,2026-03-01
+C-0115,SMB,United Kingdom,2025-09-01
+C-0116,SMB,United Kingdom,2025-01-01
+C-0117,SMB,Canada,2025-03-01
+C-0118,SMB,Canada,2025-08-01
+C-0119,Mid-market,Canada,2025-09-01
+C-0120,SMB,Canada,2025-12-01
+C-0121,SMB,Canada,2025-11-01
+C-0122,Enterprise,Canada,2025-09-01
+C-0123,SMB,United States,2026-03-01
+C-0124,SMB,Canada,2026-02-01
+C-0125,Mid-market,Canada,2025-04-01
+C-0126,SMB,Canada,2025-08-01
+C-0127,SMB,United States,2025-12-01
+C-0128,Mid-market,Canada,2025-08-01
+C-0129,SMB,United States,2025-12-01
+C-0130,SMB,United Kingdom,2025-01-01
+C-0131,Mid-market,Canada,2025-02-01
+C-0132,Enterprise,United Kingdom,2026-01-01
+C-0133,SMB,Canada,2025-04-01
+C-0134,SMB,United Kingdom,2025-03-01
+C-0135,SMB,United States,2025-03-01
+C-0136,SMB,Canada,2026-01-01
+C-0137,SMB,United States,2025-02-01
+C-0138,SMB,Canada,2025-05-01
+C-0139,Mid-market,United Kingdom,2025-03-01
+C-0140,SMB,United Kingdom,2025-10-01
+C-0141,Enterprise,Canada,2025-08-01
+C-0142,SMB,Canada,2025-05-01
+C-0143,SMB,Canada,2025-11-01
+C-0144,Mid-market,United States,2025-07-01
+C-0145,SMB,Canada,2025-07-01
+C-0146,SMB,United States,2025-12-01
+C-0147,SMB,United States,2025-03-01
+C-0148,SMB,Canada,2026-02-01
+C-0149,SMB,Canada,2025-11-01
+C-0150,Mid-market,Canada,2026-03-01
+C-0151,SMB,Canada,2025-01-01
+C-0152,SMB,Canada,2026-01-01
+C-0153,Enterprise,United Kingdom,2025-06-01
+C-0154,Enterprise,Canada,2025-07-01
+C-0155,Enterprise,Canada,2025-01-01
+C-0156,Mid-market,Canada,2026-01-01
+C-0157,Enterprise,United Kingdom,2025-06-01
+C-0158,SMB,United States,2025-08-01
+C-0159,SMB,United Kingdom,2025-10-01
+C-0160,SMB,Canada,2025-02-01
+C-0161,SMB,United States,2025-06-01
+C-0162,Mid-market,United States,2025-02-01
+C-0163,Mid-market,United States,2025-04-01
+C-0164,Enterprise,Canada,2025-04-01
+C-0165,SMB,Canada,2025-05-01
+C-0166,SMB,Canada,2025-12-01
+C-0167,SMB,Canada,2026-01-01
+C-0168,SMB,United States,2026-01-01
+C-0169,Mid-market,Canada,2025-11-01
+C-0170,Mid-market,Canada,2025-06-01
+C-0171,Enterprise,United Kingdom,2025-12-01
+C-0172,Enterprise,United States,2025-07-01
+C-0173,Mid-market,Canada,2026-03-01
+C-0174,Mid-market,United States,2025-10-01
+C-0175,SMB,Canada,2025-08-01
+C-0176,SMB,United States,2025-07-01
+C-0177,Mid-market,Canada,2025-07-01
+C-0178,Mid-market,United States,2025-01-01
+C-0179,SMB,Canada,2026-01-01
+C-0180,SMB,United Kingdom,2025-11-01
+C-0181,Mid-market,United States,2025-12-01
+C-0182,SMB,Canada,2026-02-01
+C-0183,SMB,Canada,2025-10-01
+C-0184,Mid-market,Canada,2025-11-01
+C-0185,SMB,United Kingdom,2025-08-01
+C-0186,SMB,Canada,2025-02-01
+C-0187,Mid-market,United States,2025-03-01
+C-0188,SMB,Canada,2025-10-01
+C-0189,Enterprise,Canada,2025-02-01
+C-0190,SMB,Canada,2026-03-01
+C-0191,SMB,United States,2025-06-01
+C-0192,Mid-market,Canada,2025-05-01
+C-0193,Mid-market,United States,2025-11-01
+C-0194,Mid-market,United States,2025-01-01
+C-0195,Enterprise,Canada,2026-02-01
+C-0196,SMB,United States,2025-04-01
+C-0197,SMB,Canada,2025-08-01
+C-0198,SMB,Canada,2026-03-01
+C-0199,SMB,Canada,2026-02-01
+C-0200,SMB,Canada,2025-08-01
+C-0201,SMB,United States,2025-11-01
+C-0202,SMB,Canada,2025-08-01
+C-0203,SMB,Canada,2025-11-01
+C-0204,Mid-market,Canada,2025-02-01
+C-0205,Mid-market,Canada,2025-07-01
+C-0206,Enterprise,United Kingdom,2025-11-01
+C-0207,Mid-market,Canada,2026-02-01
+C-0208,SMB,Canada,2025-12-01
+C-0209,Enterprise,Canada,2025-04-01
+C-0210,SMB,Canada,2025-06-01
+C-0211,SMB,United States,2025-08-01
+C-0212,SMB,Canada,2025-12-01
+C-0213,SMB,United States,2025-03-01
+C-0214,Mid-market,United States,2025-04-01
+C-0215,SMB,Canada,2025-10-01
+C-0216,SMB,Canada,2025-11-01
+C-0217,SMB,United States,2025-10-01
+C-0218,SMB,Canada,2026-01-01
+C-0219,SMB,United Kingdom,2025-07-01
+C-0220,SMB,United States,2025-10-01
+C-0221,SMB,Canada,2025-08-01
+C-0222,Mid-market,United States,2025-01-01
+C-0223,Enterprise,Canada,2026-01-01
+C-0224,SMB,Canada,2026-02-01
+C-0225,Enterprise,Canada,2025-04-01
+C-0226,Mid-market,Canada,2025-03-01
+C-0227,SMB,United States,2025-01-01
+C-0228,SMB,United States,2025-11-01
+C-0229,SMB,United States,2025-07-01
+C-0230,SMB,Canada,2026-03-01
+C-0231,SMB,Canada,2025-05-01
+C-0232,SMB,United Kingdom,2026-03-01
+C-0233,SMB,United States,2025-01-01
+C-0234,Enterprise,Canada,2025-05-01
+C-0235,SMB,United Kingdom,2025-03-01
+C-0236,SMB,United States,2025-10-01
+C-0237,SMB,Canada,2025-07-01
+C-0238,SMB,Canada,2025-03-01
+C-0239,Enterprise,United Kingdom,2025-03-01
+C-0240,Mid-market,Canada,2025-06-01

@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-10-24T10:03:14.101513+00:00",
+  "project": "Ask Your Metrics",
+  "data_scope": "Authored synthetic subscription and invoice data only",
+  "mode": "Deterministic governed metric parser; no live LLM or production database",
+  "checks": {
+    "python_tests": 20,
+    "python_tests_status": "passed",
+    "evaluation": {
+      "cases": 16,
+      "passed": 16,
+      "accuracy": 1.0,
+      "answered_cases": 10,
+      "clarification_cases": 2,
+      "unsupported_cases": 4
+    },
+    "notebook_code_cells": 8,
+    "notebook_errors": 0,
+    "javascript_syntax": "passed",
+    "browser_functional_qa": "passed: supported answer, example selection, clarification, disabled no-query export and CSV download",
+    "desktop_visual_qa": "passed",
+    "mobile_device_qa": "not performed"
+  },
+  "limits": [
+    "No live model, Stripe account or production database",
+    "Static dashboard replays checked SQL outputs",
+    "Evaluation set is authored and contains 16 questions",
+    "No separate mobile-device test"
+  ],
+  "files": {
+    ".gitignore": {
+      "sha256": "76d0f993344604334324e4f7ae1baf1f1ce57e60c98d05917655fed3840bb3a3",
+      "size_bytes": 47
+    },
+    "AGENTS.md": {
+      "sha256": "d28becfbafa49952a7d48543a588b4a16db9643e74b608a93c4c4bef2060ccb8",
+      "size_bytes": 805
+    },
+    "LICENSE": {
+      "sha256": "5bcdc1f5b5183cc071b744fb66604abd9d55b06594c96a29de41ed2839c60721",
+      "size_bytes": 1070
+    },
+    "README.md": {
+      "sha256": "a93f8109f34f5e39a5e8bd45be063171455864e5c7b3d016ff7d242a185c24cd",
+      "size_bytes": 3544
+    },
+    "data/README.md": {
+      "sha256": "12a5c983d7f2ca75c36a63176b3b2a950f8b4679211d0958320e6126429e5c1b",
+      "size_bytes": 477
+    },
+    "data/customers.csv": {
+      "sha256": "28af813b1e17e3cabe6864fcebe02164db7596921915bfdce07505f5ce539067",
+      "size_bytes": 8370
+    },
+    "data/invoices.csv": {
+      "sha256": "a012383a388072b3735481649676dc45671e3cd298537e0cf1dc34ce90b82ffe",
+      "size_bytes": 140327
+    },
+    "data/metrics_demo.sqlite": {
+      "sha256": "501f06546ece359d21bb9a1efecceb8de395efd5c0f08ee9d518919b31666b0e",
+      "size_bytes": 708608
+    },
+    "data/subscription_monthly.csv": {
+      "sha256": "3af7d183920fb96a940ff532918ec1c517d3bf81ab77941a432ea41ee9840d14",
+      "size_bytes": 216254
+    },
+    "dist/app.js": {
+      "sha256": "540073883e82919f5980b935e80aa4c18acc779556b1f503d5d641742410f411",
+      "size_bytes": 3821
+    },
+    "dist/data.js": {
+      "sha256": "77c289f40c70879489a95622bac66d7e85f210f8ec6accc707fb2cd9f321680d",
+      "size_bytes": 7235
+    },
+    "dist/index.html": {
+      "sha256": "6edf7f052831960224c3cd93fef5b779c78b689f7de29656ca577d4821096c5b",
+      "size_bytes": 3519
+    },
+    "dist/styles.css": {
+      "sha256": "3d5ce51fac94c3773acc31907171650b3d1370d347e134cfdf7741cdf0f76a95",
+      "size_bytes": 4151
+    },
+    "docs/data_dictionary.md": {
+      "sha256": "9a45d2cce8560272ad0dcba469a5dbae896cc9b9854500086f9fd5d0a7aa2f5b",
+      "size_bytes": 1008
+    },
+    "docs/findings.md": {
+      "sha256": "878e2f605e73b69ce34836a98d84d1fcd158597e20e451d628379c9708232b65",
+      "size_bytes": 1493
+    },
+    "docs/implementation_journal.md": {
+      "sha256": "847973303f70722f355ca422552492b7409756f5b76134247eb07dcbaf9d721e",
+      "size_bytes": 1356
+    },
+    "docs/interview_explanation.md": {
+      "sha256": "9b494b6b94cdb913c6dcc3417f72d72af1ec9d548fc81425459be246dbb9f66d",
+      "size_bytes": 1141
+    },
+    "docs/metric_definitions.md": {
+      "sha256": "8caaefc62ae3e61437f7efbc42b0bf09a78bbd562b42efe85eeae13ccc9a7700",
+      "size_bytes": 1008
+    },
+    "docs/walkthrough.md": {
+      "sha256": "4f3ea58f1ffce9b1d7b5098dfe4de060eb416bad4cca6c4d74e5185d06647e20",
+      "size_bytes": 2742
+    },
+    "notebooks/ask_your_metrics.ipynb": {
+      "sha256": "1aba5bd8791db39804b11ce2e7e3e7735813d5f23d9233863fd86a285cfab7da",
+      "size_bytes": 80370
+    },
+    "outputs/evaluation_summary.json": {
+      "sha256": "2e5a7be98452f5e8ba2dcd7945b32d0fb2bc4c676ec0f67e11debd637953d5dd",
+      "size_bytes": 130
+    },
+    "outputs/question_evaluation.csv": {
+      "sha256": "403000b5fcb732c57c08bb1a5d7b78890c3d0e9002c34723517e8670e77133a5",
+      "size_bytes": 1273
+    },
+    "requirements.txt": {
+      "sha256": "f154d435f2164e160a00acc7e2689b3713f2c680cd10fa69a05aa5d0e883fba7",
+      "size_bytes": 76
+    },
+    "scripts/build_release_manifest.py": {
+      "sha256": "fe3935edf4f8e94931adf705b4e256ef151e6e20c4a54942dc2df610598531a1",
+      "size_bytes": 2393
+    },
+    "scripts/execute_notebook.py": {
+      "sha256": "bc9cb51154055269ac8811a49615c63046431207003b6a548aeb3c24f08fdf10",
+      "size_bytes": 2163
+    },
+    "sql/approved_metrics.sql": {
+      "sha256": "3af05d6039873859343ed665986cc6204984ce1ba905a0739be07b2da59a2ce5",
+      "size_bytes": 735
+    },
+    "src/generate_data.py": {
+      "sha256": "c96cea06a33d098932857be28d0b9a21b6a1482df96cc54d6324856896fb41b4",
+      "size_bytes": 4660
+    },
+    "src/metric_engine.py": {
+      "sha256": "30c77ac50722c493a828758b2fb9b703143e7cbce343e8e3a52cb1045c17e876",
+      "size_bytes": 8562
+    },
+    "src/run_analysis.py": {
+      "sha256": "b9d2b3a9c3eda50ac9424608a0114145cd5d71ffbcb4108db7b694c535d4e410",
+      "size_bytes": 5668
+    },
+    "tests/test_metric_engine.py": {
+      "sha256": "22a76e60b76539e14e8ffc2f49c007466dcc73c7a49ba70a961d7601f32c1328",
+      "size_bytes": 2706
+    }
+  }
+}
