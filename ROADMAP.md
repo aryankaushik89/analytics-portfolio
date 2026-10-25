@@ -8,7 +8,7 @@ This is the planned order. Only released projects contain completed work. The or
 | 02 | [Marketing Lift and Experiment Lab](projects/02_marketing_lift_experiment_lab) | Synthetic randomized experiments, incremental effects, confidence intervals and quality gates | Released |
 | 03 | [Fraud Decision Desk](projects/03_fraud_decision_desk) | Thresholds, false positives, review capacity and cost assumptions | Released |
 | 04 | [Ask Your Metrics](projects/04_ask_your_metrics) | Approved metric semantics, inspected SQL, read-only execution and answer evaluation | Released |
-| 05 | Merchant Pricing and Profitability | Pricing, transaction mix, contribution margin and scenario analysis | Planned |
+| 05 | [Merchant Pricing and Profitability](projects/05_merchant_pricing_profitability) | Pricing, transaction mix, contribution margin and scenario analysis | Released |
 | 06 | Marketing Metrics with dbt | Documented transformations, tests, lineage and acquisition measures | Planned |
 | 07 | GA4 E-commerce Funnel Diagnostics | Event grain, nested SQL, sessions, funnels and data quality | Planned |
 | 08 | Supply Chain Power BI Control Tower | Dimensional modelling, Power Query, DAX and operational measures | Planned |

@@ -1,0 +1,167 @@
+{
+  "project": "05 Merchant Pricing and Profitability",
+  "data_scope": "Deterministic authored synthetic merchant-month data only",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 35,
+      "sha256": "10274eefe951d6fc50338dc903cf917d70a41751ae94ad1e0d02cebb62b1b8dd"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 794,
+      "sha256": "4e9eb51cb924e33433f8b82f13cad69fd717fcdac92a477a8a837613987fcd96"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1071,
+      "sha256": "8825730baf657d1cb2043ac6b35225e256ee13b456f34efb4b96b80cab70557e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2979,
+      "sha256": "7c5a26e77626b165c1b1655299bd3885650e66cc0c057a63016489a9703cee34"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 781,
+      "sha256": "074845ff6c87745fc7f782b363b6256f1298766bf750a67c5273721430843502"
+    },
+    {
+      "path": "data/synthetic_merchants.csv",
+      "size_bytes": 26576,
+      "sha256": "eb4bd82d1a880addb91bc916abcc0319989ea96b7d02b4d47106062012150854"
+    },
+    {
+      "path": "dist/app.js",
+      "size_bytes": 9231,
+      "sha256": "adf2dbf3c191450841804799ae201edf3cad832a5be954aebe2e50fd06217687"
+    },
+    {
+      "path": "dist/data.js",
+      "size_bytes": 87809,
+      "sha256": "2e2b5e4672dbbe83fed57a04c8531e85230b27124c83b104af52c5bd11cf19fc"
+    },
+    {
+      "path": "dist/index.html",
+      "size_bytes": 6116,
+      "sha256": "00eb52d56f0860ded4932d2392a26044654a78e9ecaaa1d75313aefa6fec5bb3"
+    },
+    {
+      "path": "dist/styles.css",
+      "size_bytes": 6121,
+      "sha256": "7086dec339da0debf6e14f218ea30c8cba2e3438ad2b2b20f52c4d1fe48fcc64"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "size_bytes": 1529,
+      "sha256": "ae1dfdf9e3f3be9eedeba3a276269cc4ee14f6458992505dc20979c9f68a2659"
+    },
+    {
+      "path": "docs/findings.md",
+      "size_bytes": 1207,
+      "sha256": "c3f2972a4a4d35676fc6fb2f8b244c3a04d8cc361cce83c1cd9f0f195a10d4ad"
+    },
+    {
+      "path": "docs/implementation_journal.md",
+      "size_bytes": 2037,
+      "sha256": "45cb6f6280e5af697db4887d6d5771fe7a51da904e38539640030c0024fc1f8b"
+    },
+    {
+      "path": "docs/interview_explanation.md",
+      "size_bytes": 1233,
+      "sha256": "13e1c8ebf4d4f0c183272fa5aa884dafcad83666855656ef8d872dfde6fc0015"
+    },
+    {
+      "path": "docs/metric_definitions.md",
+      "size_bytes": 1765,
+      "sha256": "214014d29d88f9d20b644f89fa8c6640f8c7043c1c55ce34117f5daec864d454"
+    },
+    {
+      "path": "docs/walkthrough.md",
+      "size_bytes": 1822,
+      "sha256": "c906e6eb52753e0e61b8914250d4633702761dbe97304e96513bceecb5e6b97e"
+    },
+    {
+      "path": "notebooks/merchant_pricing_profitability.ipynb",
+      "size_bytes": 9984,
+      "sha256": "893fcbd3bd4502c8aebe619bb334ed64931f821b96ac27fc70aa014996e861a2"
+    },
+    {
+      "path": "outputs/merchant_plan_economics.csv",
+      "size_bytes": 361755,
+      "sha256": "896c92c2fb67d3cb439da394b4b4252217022a4823bae99257d4a09bc854ca88"
+    },
+    {
+      "path": "outputs/plan_summary.csv",
+      "size_bytes": 406,
+      "sha256": "da5dcad0a65735b64c7a0bf2e43c58ab69cde2211918045843d244b817cc4f91"
+    },
+    {
+      "path": "outputs/segment_summary.csv",
+      "size_bytes": 1583,
+      "sha256": "b7c7e9d06f33cd680121a2f18ee32795230e603399571f15eef55385715c1ff8"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 42,
+      "sha256": "f7d66f9728f9270f1b2e7a48332ef8d2b581b2c73d6a13248e0a95b5497919c8"
+    },
+    {
+      "path": "scripts/build_dashboard_data.py",
+      "size_bytes": 765,
+      "sha256": "bde9ad6c7e0e0cf4ddfb2af15b8a057471961ab93c41d326b5db94cb2ac1ca4b"
+    },
+    {
+      "path": "scripts/build_release_manifest.py",
+      "size_bytes": 2367,
+      "sha256": "012d5f08ad29c620a33e4c4a7d3f45b6a6412f7c8dbc1d13b5c0f72043e72d50"
+    },
+    {
+      "path": "scripts/execute_notebook.py",
+      "size_bytes": 5255,
+      "sha256": "52719caba7d868b6999d4a15bfd8c9069be69726736448beae2fc4f8eabb8162"
+    },
+    {
+      "path": "scripts/run_analysis.py",
+      "size_bytes": 439,
+      "sha256": "85d0da9c6480a475fc761c6f66f33cc1816b398abbb94bcaca11a29619a9d580"
+    },
+    {
+      "path": "sql/merchant_profitability.sql",
+      "size_bytes": 591,
+      "sha256": "7220d047e60eb2cf6785857474311fa20337b410de749fcc11f819f9ebace855"
+    },
+    {
+      "path": "src/analyze_pricing.py",
+      "size_bytes": 6556,
+      "sha256": "3476cfb197502f2a5028fa2d6e94516c89abad4cc6d911fa218ce0fd1116c2b4"
+    },
+    {
+      "path": "src/generate_data.py",
+      "size_bytes": 2530,
+      "sha256": "aa65d75b753e80728f5c4d6074a4d13037924121af692d1adda515f05adeed21"
+    },
+    {
+      "path": "tests/test_pricing.py",
+      "size_bytes": 3589,
+      "sha256": "4ab03f0351356c5510b1f78ed76ae90ca7cd53cb214b359dee06d40733c5e510"
+    }
+  ],
+  "checks": {
+    "python_tests": 12,
+    "python_tests_status": "passed",
+    "executed_notebook_code_cells": 6,
+    "notebook_error_outputs": 0,
+    "javascript_syntax": "passed",
+    "browser_functional_qa": "passed: plan, cost stress, merchant detail, reset, CSV download and empty state",
+    "desktop_visual_qa": "passed",
+    "mobile_device_qa": "not performed"
+  },
+  "known_limits": [
+    "All commercial rates, merchants and cost responses are hypothetical.",
+    "Contribution margin excludes sales, support, hardware, compliance, fraud losses, tax and overhead.",
+    "The static dashboard has no live processor, merchant or network integration.",
+    "No separate mobile-device test was performed."
+  ]
+}

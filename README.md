@@ -10,6 +10,7 @@ I use these projects to work through business questions with Python, SQL and cle
 | 02 | [Marketing Lift and Experiment Lab](projects/02_marketing_lift_experiment_lab) | Did a campaign create enough extra conversions to cover its cost, and can I trust the comparison? |
 | 03 | [Fraud Decision Desk](projects/03_fraud_decision_desk) | Which transactions should enter a limited fraud-review queue? |
 | 04 | [Ask Your Metrics](projects/04_ask_your_metrics) | Can a business question stay tied to an approved definition, inspected SQL and a verifiable result? |
+| 05 | [Merchant Pricing and Profitability](projects/05_merchant_pricing_profitability) | How do pricing options change merchant cost and contribution margin? |
 
 The first project includes an executed notebook, SQL models, an interactive browser dashboard, source data, findings and verification notes. Its generated scenario covers 360 fictional accounts. No employer or customer data is included.
 
@@ -21,8 +22,11 @@ The fraud project uses 60,000 authored synthetic transactions to compare review 
 
 Ask Your Metrics is a governed offline question interface. It selects from approved metric queries, shows the SQL and parameters, and stops when a request is unclear or unsupported. The hosted browser version replays checked outputs; it is not a live language-model or production-database integration.
 
+Merchant Pricing and Profitability compares three hypothetical price structures across 360 synthetic merchants. It separates fee revenue from payment costs, recomputes weighted rates from totals and tests cost and volume sensitivity. The rates and business responses are assumptions, not a real provider schedule or forecast.
+
 ## More work
 
 The [roadmap](ROADMAP.md) lists the remaining projects. Entries marked planned are ideas for future work, not completed projects.
 
 I keep the question, calculation and interpretation together. A useful result should be reproducible and explainable, including the limitations. Each project README provides its own setup instructions and data licence details.
+

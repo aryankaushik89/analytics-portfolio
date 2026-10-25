@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A checked synthetic merchant pricing and contribution margin decision model.">
+  <title>Merchant Pricing and Profitability</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="identity" href="#top">Aryan Kaushik <span>analytics project 05</span></a>
+    <nav aria-label="Page sections"><a href="#decision">Decision</a><a href="#merchants">Merchants</a><a href="#method">Method</a></nav>
+  </header>
+  <main id="top">
+    <section class="intro">
+      <p class="eyebrow">Synthetic merchant pricing model</p>
+      <h1>Merchant pricing, with the cost bridge left visible.</h1>
+      <p class="lede">I compared three hypothetical price structures against the same merchant mix. The point is to see who pays, what remains after modelled payment costs, and how quickly that answer changes.</p>
+      <div class="notice"><strong>Scope</strong> Every merchant and rate is authored for this project. This is not a Moneris, Visa or Mastercard quote and it is not a profitability forecast.</div>
+    </section>
+
+    <section class="workspace" id="decision">
+      <aside class="controls" aria-label="Scenario controls">
+        <div><p class="section-label">Scenario</p><h2>Change one assumption</h2><p>The checked base case uses the Current plan with no cost or volume change.</p></div>
+        <label>Pricing plan<select id="plan"><option>Current</option><option>Growth</option><option>Simple</option></select></label>
+        <label>Merchant segment<select id="segment"><option value="All">All segments</option><option>Micro</option><option>Small</option><option>Mid-market</option><option>Enterprise</option></select></label>
+        <label>Channel<select id="channel"><option value="All">All channels</option><option>In person</option><option>E-commerce</option><option>Mixed</option></select></label>
+        <label>Credit cost change <output id="costShockValue">0 bps</output><input id="costShock" type="range" min="-25" max="150" value="0" step="5"></label>
+        <label>Processed volume change <output id="volumeValue">0%</output><input id="volume" type="range" min="-50" max="30" value="0" step="5"></label>
+        <label>Merchant ID search<input id="search" type="search" placeholder="Example M0033" autocomplete="off"></label>
+        <div class="actions"><button id="reset" class="secondary">Reset</button><button id="export">Export filtered CSV</button></div>
+      </aside>
+
+      <div class="results" aria-live="polite">
+        <div class="result-heading"><div><p class="section-label">Filtered result</p><h2 id="resultTitle">Current pricing</h2></div><p id="planTerms" class="terms"></p></div>
+        <div class="metric-grid" id="metrics">
+          <article><span>Processed sales</span><strong id="salesMetric">–</strong><small id="merchantMetric">–</small></article>
+          <article><span>Weighted effective rate</span><strong id="rateMetric">–</strong><small>Fee revenue ÷ sales</small></article>
+          <article><span>Contribution margin</span><strong id="marginMetric">–</strong><small id="marginRateMetric">–</small></article>
+          <article><span>Negative-margin merchants</span><strong id="negativeMetric">–</strong><small>After selected cost change</small></article>
+        </div>
+        <div class="chart-card">
+          <div><p class="section-label">Contribution by segment</p><h3>Commercial buffer after modelled costs</h3></div>
+          <div id="segmentChart" class="bars" role="img" aria-label="Contribution margin by merchant segment"></div>
+        </div>
+        <div id="decisionNote" class="decision-note"></div>
+        <div id="emptyState" class="empty" hidden><h3>No merchants match these filters.</h3><p>Clear the merchant search or reset the scenario. There is no result to calculate or export.</p></div>
+      </div>
+    </section>
+
+    <section id="merchants" class="merchant-section">
+      <div class="section-heading"><div><p class="section-label">Merchant detail</p><h2>Where the portfolio result comes from</h2></div><p>Select a row to inspect its fee and cost bridge. The table shows the twelve lowest contribution margins in the filtered result.</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Merchant</th><th>Segment</th><th>Channel</th><th>Sales</th><th>Effective rate</th><th>Contribution</th><th></th></tr></thead><tbody id="merchantRows"></tbody></table></div>
+    </section>
+
+    <section id="method" class="method">
+      <div><p class="section-label">How I treated the numbers</p><h2>A decision model, not a rate card</h2></div>
+      <div class="method-grid">
+        <article><span>01</span><h3>Separate price and cost</h3><p>Fee revenue includes a visible commercial layer. Payment costs remain separate, so contribution margin reconciles for every merchant.</p></article>
+        <article><span>02</span><h3>Weight from totals</h3><p>The effective rate divides total filtered fees by total filtered sales. It does not give a small merchant the same weight as an enterprise merchant.</p></article>
+        <article><span>03</span><h3>Hold pricing fixed in stress</h3><p>The cost slider changes credit cost without repricing the merchant. This shows the risk between a cost change and a contract response.</p></article>
+        <article><span>04</span><h3>Keep the boundary clear</h3><p>Support, hardware, fraud, tax and overhead are outside the model. Contribution margin here is not operating profit.</p></article>
+      </div>
+      <p class="source-note">Structure checked against public explanations from Mastercard Canada, Visa Canada and the Financial Consumer Agency of Canada. Numeric assumptions are original and synthetic.</p>
+    </section>
+  </main>
+
+  <dialog id="merchantDialog"><button class="dialog-close" aria-label="Close merchant detail">×</button><div id="dialogContent"></div></dialog>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

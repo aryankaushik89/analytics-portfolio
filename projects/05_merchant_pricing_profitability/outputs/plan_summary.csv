@@ -1,0 +1,4 @@
+plan,merchants,sales_cad,transactions,fee_revenue_cad,total_cost_cad,contribution_margin_cad,weighted_effective_rate_pct,contribution_margin_rate_pct,negative_margin_merchants
+Current,360,18771918.06,315622,385509.56,241746.46,143763.1,2.0537,37.2917,0
+Growth,360,18771918.06,315622,359036.43,241746.46,117289.98,1.9126,32.668,0
+Simple,360,18771918.06,315622,373149.88,241746.46,131403.43,1.9878,35.2147,0
